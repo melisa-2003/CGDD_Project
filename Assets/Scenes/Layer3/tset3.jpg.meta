@@ -1,0 +1,7575 @@
+fileFormatVersion: 2
+guid: 1a243fca3ac98d14a97ef6aaae8a36dc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8430103486187094917
+    second: tset3_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 60
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tset3_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 971
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7c390e3b81420b80800000000000000
+      internalID: -8430103486187094917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 971
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda952e0d50cbc54abcd3cdd5efc93ec
+      internalID: 3012531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_2
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 971
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d5cf8f37063524e88d6df901dfece9
+      internalID: -525946993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_3
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 971
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd17dd2fe86113e43a64e1619252e9c1
+      internalID: 1730532065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_4
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 971
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0bde10f9a3553648a63a312658d2fa6
+      internalID: -767521907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_5
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 971
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a2ab46ad8dd07648b77d8782e14361e
+      internalID: 277160263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_6
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 971
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 291998b6cc677ef43ba2c73e5f0154d2
+      internalID: 686641740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_7
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 971
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b45b2237c96f1da4f944d9f96f4549fa
+      internalID: -1688624514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_8
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 971
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52c93b7a4a09ab74eb6b1192ffcc5aa4
+      internalID: -1005950644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_9
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 971
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91b8e3b8d8c637f49b971d65d48b748a
+      internalID: 511867664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_10
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 971
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d923b6cd91fd4694db71183bf201d9b4
+      internalID: -2050816746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_11
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 971
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972ca408f361219478e782c48dc09328
+      internalID: 1576435209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_12
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 971
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9b10d22f3ba1904198f00bbbec72036
+      internalID: -396690952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_13
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 971
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aea9d18e7fff3e468e2b3f2889f208c
+      internalID: 1973401359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_14
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 971
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be2ec25f79e863a41b4c7eaa508313da
+      internalID: -241179760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_15
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 971
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74804d39e36acbe44a3abf36cbf4b183
+      internalID: 738638909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_16
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 971
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d4dd833958cd124496cb33384f92197
+      internalID: 1414180302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 918
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a643d2fd0ed10b4ba3026f2223b9354
+      internalID: -670077964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_18
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 918
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99ce139f0bcaaf3459ffb461f92603d7
+      internalID: 1456840843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_19
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 918
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94e423af67ad9224f82dade53d94f0ba
+      internalID: 1727496859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_20
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 918
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d5b112524b6e04ea1b3e37b5b56cfb
+      internalID: -2141872365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_21
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 918
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 083326a20a7071f49b4d74b171568d79
+      internalID: -1327156014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_22
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 918
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e95b54fe2e50c4146bbee86d9f794e63
+      internalID: -566490045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_23
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 918
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c201cb7205866b74683f439504ea92ac
+      internalID: 2088840690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_24
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 918
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04f07651124cc6244b1633f709aa6d67
+      internalID: 1031186197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_25
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 918
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36fa218b1f214854ab6f5df5413b3c26
+      internalID: -349247392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_26
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 918
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5477cef77fdad049b41132cac5b7f8d
+      internalID: 1630170563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_27
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 918
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6627e3dec7fbba041abca114bfaddb38
+      internalID: 1978064500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_28
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 918
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b318378746a7c1d48896d319cbf1b886
+      internalID: 422094679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_29
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 918
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 232f2c9d97d259147a7b8aeee2097c40
+      internalID: 846100126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_30
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 918
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf1f6e3bcb5c6048aa0a3e74711c032
+      internalID: -1345812948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_31
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 918
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a8d849e974d9a4bb91ec5e38b827c4
+      internalID: -1188636225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_32
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 918
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e50f1440ae79549a35eaff7475a92c
+      internalID: 339214769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_33
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 918
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b6279e259c99a408408bae6e2d31eb
+      internalID: -1166768730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 865
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc11279250176ba4f905dcbc6927fabe
+      internalID: 268532292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_35
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 865
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c56a3e1332bc4b240979d0d45bb14359
+      internalID: -654333950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_36
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 865
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da8cd04944e46e64f95c56944ba40685
+      internalID: 193072010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_37
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 865
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f53bc3ec2a02141a5cbf1fa394e901
+      internalID: 661600411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_38
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 865
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee7580e0f9d55741922ea79505e25c7
+      internalID: -1267946054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_39
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 865
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 191507bbb612cf64c9ba282702c1235b
+      internalID: 144381978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_40
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 865
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e9692875e7dd2d4b958d33b8ca81322
+      internalID: -1905909979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_41
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 865
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5934a3d352416d4b8413677efee2109
+      internalID: -720114831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_42
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 865
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a025e790dbf5644b81e34d051498a64
+      internalID: -961182401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_43
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 865
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3799f7a3a3bc6bb4ba475d4bb48c05d6
+      internalID: -1584234383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_44
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 865
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25f84f6f901d19f4a88834fb90307329
+      internalID: 2085494240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_45
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 865
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4327e9231d17284eb06320b5c3c1d99
+      internalID: -1857185572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_46
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 865
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a5852588f57f434a85fe67f9e666fd0
+      internalID: -762427621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_47
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 865
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76b6bbdd939c08e4ea60a1bc3814c534
+      internalID: 468945703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_48
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 865
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bcf3fc189a23664fbb78d36461cf328
+      internalID: -895462801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_49
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 865
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a62f5b5027eb8a44b95d581bbc3b9ba9
+      internalID: 529825412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_50
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 865
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d0c1f235e4b03a489ad6cf6095a412e
+      internalID: -767419359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_51
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 812
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd98c61a4499e34b99f962c2e6327b3
+      internalID: 763180410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_52
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 812
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0965874b3db3e8a428f33218a15d85ae
+      internalID: -1858586373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_53
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 812
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c354d131ac95c8b4f8d4442cc5d9fcd1
+      internalID: 444019281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_54
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 812
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a157d0eb9cfa5dd4a98925e830cd58f9
+      internalID: 701772674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_55
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 812
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ac6621f2cfd2f741b5c06a335a2b0ce
+      internalID: 1132135110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_56
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 812
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75c393667ac6853448561e3bab12eb38
+      internalID: 2093453250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_57
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 812
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c6b3010b7418e4384de032f4724b41
+      internalID: 1302676071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_58
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 812
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 128c492fd5ecc374ab583ea303dc193b
+      internalID: 1093157810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_59
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 812
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a991bd54d363d8428878b3327f6a080
+      internalID: 2128819977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_60
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 812
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edaad833b27e9a044949a54ba9d64160
+      internalID: -954999581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_61
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 812
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb7dc0864a243264294c2f82554b3347
+      internalID: -1499188816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_62
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 812
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf86a408cf92d994cb0a0562bfc736be
+      internalID: 1852256612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_63
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 812
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 163be6beaa845c14d8713e14d72da6f9
+      internalID: -1771884957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_64
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 812
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c3f034001386943bcfb2844ba289bd
+      internalID: -1979682360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_65
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 812
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c54ecbb26cdeed347993d7ce59757bc4
+      internalID: -2065312156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_66
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 812
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b8a56b29c15d6447aa7f05da75f4c91
+      internalID: -1314580920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_67
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 812
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78361c4eab598dc41935b1707c5632c8
+      internalID: 55884683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_68
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 759
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d577716695bf51542b9c941e2a37df84
+      internalID: -25072760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_69
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 759
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63d94f213f5fa65448743cb712e0d239
+      internalID: 475447464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_70
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 759
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 114fc194bff0ffb4e87d797a580506d8
+      internalID: -125509403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_71
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 759
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4e40c65e015ef2408da28f0efc8ddb4
+      internalID: 702948737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_72
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 759
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d82ae4d85926de43a1ec4fc14dbccc3
+      internalID: 692843295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_73
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 759
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f7cef184b24921458d3e911ce0fd7ad
+      internalID: -1188412655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_74
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 759
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 232c174660f02904fb38a041b28fe680
+      internalID: -39186708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_75
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 759
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47188f9e4396ec249adf988589d0d7ba
+      internalID: 1849096189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_76
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 759
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7db7e0810f0ef92449a4b7e9d579f199
+      internalID: 1329938322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_77
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 759
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b006aa9544b0394e89133fb1cbbea5f
+      internalID: -647432669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_78
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 759
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 818d3416779ce884fab53f24044475c0
+      internalID: -1584291460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_79
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 759
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e80c1e7baf6d92e4d9af6cea50d0286f
+      internalID: -1294446008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_80
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 759
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43520b57a42728046888c82a5a756569
+      internalID: 1114683637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_81
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 759
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ce8643a6d902e04a948d7c3114edfc6
+      internalID: -1971627632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_82
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 759
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 556a09d37807e0046ba08f8e70726d11
+      internalID: -1407043377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_83
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 759
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c21e38f00dc82d6468c7ef940ec126e7
+      internalID: 1993634770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_84
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 759
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc1ea79f5e7c1cd43a201a19b81226e6
+      internalID: 1867810616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_85
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 706
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f550379e42d2c4c42818e3066be30be9
+      internalID: -1597110461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_86
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 706
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6050b4ef353f8d44b888e4430017454
+      internalID: -708192594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_87
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 706
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4876bc948a490b4a90d0d256b4cf37e
+      internalID: 418262962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_88
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 706
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfcaab66b5e47ca4ca1b9f50df7e82de
+      internalID: -883795517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_89
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 706
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b0ebbec8e83364fa062acee1ebdfb7
+      internalID: 340903224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_90
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 706
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97c86497959fac3479510513971d8d97
+      internalID: -1654811802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_91
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 706
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 071e1dfe8bb69264ebd7284e46824118
+      internalID: 469387194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_92
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 706
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df39ae566902bc54d83f697a0e611f78
+      internalID: 587170262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_93
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 706
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42bcf33ba5a057f4989fd689113baa33
+      internalID: 1568048674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_94
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 706
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fdcd3afa01c57d44834e994a5240f11
+      internalID: 1699781807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_95
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 706
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd43468855a0ac42958436b32c3f0e6
+      internalID: 1870091692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_96
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 706
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df62de4a967ede54eb4dc4ca39709335
+      internalID: 1919029733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_97
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 706
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e866e1ef6c214447825599fdbd70e22
+      internalID: -47457051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_98
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 706
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c49fa5020b315441bfb1e994963af8f
+      internalID: -1026449424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_99
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 706
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c3770f82512d04a999b8260af56d15
+      internalID: 1181811307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_100
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 706
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 220c3b5a1444f2b4c85bc672d7d4fea1
+      internalID: 1396742378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_101
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 706
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdfbe8a974c6e414a951c6dbd5922d11
+      internalID: 1998526427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_102
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 653
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01efb04a90a0c1a4eba315eeda3d7aa5
+      internalID: 48579282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_103
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 653
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c7cae895a8280d44b0e4205ddc16462
+      internalID: 1410179529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_104
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 653
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16613d0907b10854ca3e86d4ef5062d6
+      internalID: -1470760401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_105
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 653
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50abd02495848d74bb12436bdd50d700
+      internalID: -2125611910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_106
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 653
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 055375c423e4cb642b4a49154240c913
+      internalID: 1938266956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_107
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 653
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ec7216b11f289d4ea7f2bf758708fab
+      internalID: 80720245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_108
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 653
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6745e6d17812d14dbb590234efeccfa
+      internalID: 911079173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_109
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 653
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f47fa313ed1003c4396340e3e90b55bf
+      internalID: 467820860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_110
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 653
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3ecf97d0fbc65749aafd87909e430df
+      internalID: 307870706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_111
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 653
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b3e540a78e4c0498960636f72da993
+      internalID: -1627071749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_112
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 653
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 229d94d2b04bfd647898e38f6592b41b
+      internalID: 1796318436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_113
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 653
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46c20ef5934653f4aa45d3e8b3d507aa
+      internalID: 732355772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_114
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 653
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f12f81c71375d0742a5fec7b14ad3659
+      internalID: -454404231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_115
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 653
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fd0a4219875a7942862b206e3879fc1
+      internalID: -249431600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_116
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 653
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d81a7bb9445e8134db6d42c65f41e600
+      internalID: -1622632623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_117
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 653
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 644877d14bb89594c9beff0931d2d27c
+      internalID: 121773189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_118
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 653
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b956bbe964d4143acc8eaa03ff2714
+      internalID: 71600479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_119
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c1608fa8d91b840a84d944542d4d08
+      internalID: -510745776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_120
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 600
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc078a6f7abc6bd419e7d74bad43f7c7
+      internalID: 1800685324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_121
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 600
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c64164bca59261244bf1d1193b4adc7f
+      internalID: 1581383201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_122
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 600
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76c476e470fc3c04896ab4921b76d9c5
+      internalID: 1869573045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_123
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 600
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a85ab9ca2a0e5a44c9c71e12156fdbcf
+      internalID: 458375389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_124
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 600
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ee13dba84c26e45b94d0e525a4b818
+      internalID: 1968151728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_125
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 600
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02f508b432912144787cd8ebae74d47a
+      internalID: -635086646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_126
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 600
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afedcc40039471745b080b53da356eca
+      internalID: 2052238926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_127
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 600
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cceebd68e9d702846998359c0e5bcd74
+      internalID: 772339260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_128
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 600
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4323dde82c6bca2419e1f3fbc303d320
+      internalID: -616207345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_129
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 600
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71d1e17608443864bb4deefb739ee0f9
+      internalID: -1815716813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_130
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 600
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e410ae981c294b84bb067514d6a849c1
+      internalID: -1489936803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_131
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 600
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62448bc6067477a4a9445fda8eb73c38
+      internalID: -2144599980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_132
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 600
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ba0b2ec9eebc684ab4a3ccf55b9d665
+      internalID: -935180203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_133
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 600
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97418dc831a216941b8cf59fcd423425
+      internalID: 1510391839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_134
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 600
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd9b5a896c264ce468da6bc46e4daf30
+      internalID: 1676188865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_135
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 600
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99afd4dfc553a33418beee9556af9590
+      internalID: -696563183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_136
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 547
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce7564d7c6a7eb14ba482a6f87d5e31c
+      internalID: 75440967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_137
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 547
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61651ce4a4bf675498a26806b83b2e9f
+      internalID: -950362270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_138
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 547
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3864afd79e6320e48beea2e0db94cf5f
+      internalID: -1911942453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_139
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 547
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89dcefcdefcead041ac0c8f0cbd5b284
+      internalID: -1396200097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_140
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 547
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c620e7059b1575742af6e4b4ec887e00
+      internalID: 1207878793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_141
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 547
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5edd9042d443ad54d89e748deba52f14
+      internalID: -2043258621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_142
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 547
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7340f5f40c8e41d4db7c423466c3747c
+      internalID: 1004030188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_143
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 547
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb64c24354b1fe4f9acb4d2ec4bd16e
+      internalID: -1946723944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_144
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 547
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c3947d5676bfdd48a908267ca1ebbce
+      internalID: 55376934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_145
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 547
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca23dfc026966d44885f112317772836
+      internalID: -464010233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_146
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 547
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7ebce24b6c373a4e83f7a4247e9ff66
+      internalID: 638999498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_147
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 547
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51314457110875e4f99f4a9f1025ea03
+      internalID: -270579182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_148
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 547
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f221a165e124ca4c91c5e81e7a53f9a
+      internalID: -471513988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_149
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 547
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b7d273a874c5ce45b31d3e1a73f67e1
+      internalID: -1479576640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_150
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 547
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c269a2eceb4dd2e4990101744e0f2b3e
+      internalID: 1343217475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_151
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 547
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91bbf00e7a214e74abe2a5e064724382
+      internalID: -517957626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_152
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 547
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f203be1f943bfef4eadcf94932fbff0b
+      internalID: 1577651903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_153
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 494
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9055445e4fccf694c80fc801de877875
+      internalID: -1157916576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_154
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 494
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e8235f45d16be2489ab398e01fbe09c
+      internalID: 386707837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_155
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 494
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb82c357e162a3249aa7a1e9ecba0d4f
+      internalID: -1169407117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_156
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 494
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85afd1731aeaadb49a2883adbabc1127
+      internalID: 1310419351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_157
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 494
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 490d08f8952dea045b2fae3b93b0ce15
+      internalID: -337915227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_158
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 494
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4a6b2d044ad8fd45b26b223eeeb0544
+      internalID: -1534415673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_159
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 494
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0283824dce198284c9a2897f1d23e8c9
+      internalID: 304090257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_160
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 494
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651864f8b3ccfa84b9a6cf6c5ac04d87
+      internalID: 1485819223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_161
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 494
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86518c17c5e33504ea361ffd6ffd6b71
+      internalID: 1607868500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_162
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 494
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 568e3f9bbc5d4914f9989d64f460c9f4
+      internalID: -2131159530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_163
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 494
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc8eb2773f73f3944a1a28405d4c630d
+      internalID: -1743478703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_164
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 494
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c281e3cf164c3f14cac7662a7210c4ba
+      internalID: -200185290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_165
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 494
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4607ff211260254c955de70f7c07d9f
+      internalID: -1329682044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_166
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 494
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af6e08358c7ae9c40a2a1e04aa021bdd
+      internalID: -1068357696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_167
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 494
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd127371325a81c4a9fe62ebdee625e3
+      internalID: -72202392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_168
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 494
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d55ffc0ff2504d42869b339de8933f8
+      internalID: -63578455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_169
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 494
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 550ef2d6c2788be4abf304a546e483eb
+      internalID: -2028443293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_170
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 441
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 653a59e982dd77844a2d9d5c08381f32
+      internalID: 357161746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_171
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 441
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b42072530cc7672429a7845a54b70738
+      internalID: 1432931800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_172
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 441
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d2439080ee28f44b94ad5b0091cb66b
+      internalID: -226089324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_173
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 441
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c858b03873d84ec40a2d09d5b0144d2c
+      internalID: 1020267336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_174
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 441
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd3e5ed3d36bcdc47a5e52d44d6a0bec
+      internalID: -1832467037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_175
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 441
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f97b86472876f45ae008783d046ab6
+      internalID: -937109694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_176
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 441
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c38d53c7dea8946833486e4dcde62f
+      internalID: -1089374824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_177
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 441
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d461824125a9124f97c818c6f9a3963
+      internalID: -1473411802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_178
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 441
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 009bc6ecf8c76f9489471f57e21d4ce9
+      internalID: 2112049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_179
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 441
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ac1c05a6c4a904429d2e806011f033f
+      internalID: -1553856252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_180
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 441
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9918899ccff6c6a41a66b4113eed122b
+      internalID: -638238569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_181
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 441
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d7aba4ae1f510d418537216fb6087b0
+      internalID: -1285155492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_182
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 441
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbf2f3ce7a657844ab30a7b884e906f6
+      internalID: 2071119726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_183
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 441
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef7f220884bc8a347a812703dd655a8a
+      internalID: 1215533536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_184
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 441
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77d747bf669e01641b092fe8e0fb2741
+      internalID: 104971990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_185
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 441
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb8afaa8b92f1040945c0a5a6caaa71
+      internalID: -1971100322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_186
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 441
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bc4ec0597e65754190ef81797551dcb
+      internalID: -427657064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_187
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 388
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aeb4a80c95940a429a274ee0135d255
+      internalID: -1412050034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_188
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 388
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 951602063b07ff44198f2983bdde18a8
+      internalID: 2112705976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_189
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 388
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91031603c52730a4181785a200f80061
+      internalID: -1984179980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_190
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 388
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60009489579bf5d48b7aa0c9fae06580
+      internalID: 373440052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_191
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 388
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 319bf650399431146a736db057e04e0d
+      internalID: 1109501695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_192
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 388
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a2f688b9dd68e94c93d12055e957b68
+      internalID: 1136209445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_193
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 388
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7daf6ce7771f51d4fba8cf8e23085b77
+      internalID: -361318907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_194
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 388
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3037c78a3930a1c4a825722dad4c012e
+      internalID: 847175052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_195
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 388
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1498971cc8f45044bedc9caab56890b
+      internalID: -440046847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_196
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 388
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da21885c4f61983409c384a0954a5f2e
+      internalID: -1015210708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_197
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 388
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 987ed1b513915f649a8353149ce108b6
+      internalID: -1091070096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_198
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 388
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 708c09efeae118244ba2b61982ae8e69
+      internalID: -1647297879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_199
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 388
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec1e81cf0b11fe3468cdbb34cb78e8f8
+      internalID: -708696748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_200
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 388
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b00ff57afda7f164f8006e81758696ae
+      internalID: 1801196868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_201
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 388
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39de1aad041287a4f9156fc55402534a
+      internalID: -1546063103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_202
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 388
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d188c5540b6544b8c37867aa569547
+      internalID: 1596448995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_203
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 388
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fe33b41c4d72f14dbc4f2a4a254798a
+      internalID: -172380273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_204
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 335
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a600e11d88e5940a15f0e4d2d7091b
+      internalID: -883582409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_205
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 335
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a4219c72be7d98449b5fa647b31980b
+      internalID: -1125459973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_206
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 335
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 843bc95e32a074c41830f467397b15e3
+      internalID: -1600294363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_207
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 335
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51852fbca6fcf6046b788fa0d110c686
+      internalID: 1491656296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_208
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 335
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ec4383db94a81458a00698e37495b8
+      internalID: 1985697169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_209
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 335
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54eba1985b878d24c9ce2b2e187d5c23
+      internalID: 1623116505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_210
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 335
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50821ebf7f9c4284f89bb59a639f1ecd
+      internalID: 1694087883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_211
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 335
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdf8ec85732387c489382088528165e0
+      internalID: -644763975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_212
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 335
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b2428c3c3a77345a139714883f648b
+      internalID: 1895824559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_213
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 335
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d63752a5c45964b88d4fcfaeff6864
+      internalID: -716175966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_214
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 335
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4dca0c7e37d7b34ea6f187c32cd1014
+      internalID: 757495271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_215
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 335
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc8d0704ba718e4a98ad848a64f5e94
+      internalID: -1978375876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_216
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 335
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6da2aad68e21fa47a44c56088099498
+      internalID: 493940230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_217
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 335
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d311839dd2e9b74985fba33b8f90a54
+      internalID: 252898112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_218
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 335
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc9078735f350e9469b730edaecb0332
+      internalID: -1242548648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_219
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 335
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edc7c7ddaf3f81441aa64825ad4d1ecb
+      internalID: 972393747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_220
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 335
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a7c4a8c2d4dafe478865f99ccb6f80e
+      internalID: 1596507036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_221
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 282
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 431f01c72ef2c4c42bb1a1401ce243e5
+      internalID: 1670633677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_222
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 282
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae616f36bb6707143bddc4895601a09d
+      internalID: 1786147675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_223
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 282
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8f2e69beb3ff4e458b8469fadb4e85c
+      internalID: -1787002174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_224
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 282
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5adb39ba0945254184fff17187c93fb
+      internalID: 812608799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_225
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 282
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcf7f79c320057448aaf7e640117ad75
+      internalID: 1768599380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_226
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 282
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3971998dc4d28a45b457775b89f7076
+      internalID: 716652563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_227
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 282
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40935a757337fe74a832de3662ffc130
+      internalID: 1666885615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_228
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 282
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d64c27d794ef5c40a67a6035eee0da3
+      internalID: 486441294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_229
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 282
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c11acf3617524474bbec520d83cbbce6
+      internalID: 162466146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_230
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 282
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97c6dd872d3b3c74ba55e77ecd2c0737
+      internalID: -1316137860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_231
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 282
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 660476610a37c51498d4ddbbcf99e673
+      internalID: -1183127089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_232
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 282
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebcf337bd86e0d349922c6060a4a3567
+      internalID: -283917538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_233
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 282
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2179814be1c2134290090c0ea041a4e
+      internalID: 1438597916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_234
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 282
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 670129efe9a9b0a40b63e9b3a81ff593
+      internalID: 218745754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_235
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 282
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55318c5af0252f6479793d4b8cd7216c
+      internalID: -395136299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_236
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 282
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e86f7235316584c9036a2d4bf61219
+      internalID: 749540004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_237
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 282
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d582a6394dbc824bb9a425b13946071
+      internalID: 1600504854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_238
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 229
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5f391047a1c6ac4b8cdb349a74ec6e4
+      internalID: -1232994040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_239
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 229
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0fecfd5d6d4d644dbb5f1dd9fbe336e
+      internalID: -203341953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_240
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 229
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d08473a83c98194f8192d96b3754fb7
+      internalID: -1998043603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_241
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 229
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f49b77d3aafd70c4081f4001035ec5ad
+      internalID: -489360479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_242
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 229
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b86f95ab3a9b5d34b8aac6eae3175002
+      internalID: -1282503435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_243
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 229
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02b5f2b9ae60c324e8cad17c40d4370d
+      internalID: -2072015656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_244
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 229
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1beaa78ad927de2409b0b65f2c31f308
+      internalID: 593064434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_245
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 229
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0776996a4c3f9c44af9eeb57b86835c
+      internalID: -804273680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_246
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 229
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7819bbcbbd087ce4396f1826abff0f32
+      internalID: 1848901837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_247
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 229
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1117e47e9aea7dc42aba7e12cdc768c2
+      internalID: -629822510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_248
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 229
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04261df8dcac87840ab68fa872a00696
+      internalID: -91837998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_249
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 229
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d519991edc38a34ab1f0dacae7cf47b
+      internalID: -468361243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_250
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 229
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9c10446d2ce474ba4631a7810ce702
+      internalID: -2128594186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_251
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 229
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc848ad02be49943bb758e852435ec1
+      internalID: 839227407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_252
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 229
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fd3225802c75904b87c6b6ac02d212a
+      internalID: -1114997946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_253
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 229
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61a388e4e474cfd4094a61436562b6a9
+      internalID: 1972164566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_254
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 229
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3020b437281e4b468decbe8f7e92848
+      internalID: -540140135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_255
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c544e6162abbab44589e6407553a5893
+      internalID: 1568564546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_256
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 176
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cec9100b94e81f41bd431f28f657f80
+      internalID: 1577399747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_257
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 176
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e57d16e604c270042b2080d12878db23
+      internalID: 1047101134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_258
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 176
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd0f03e4971a464583428c39b58e745
+      internalID: -1517465002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_259
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 176
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33879b34c79272d468aa76b5698db44a
+      internalID: -1044297917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_260
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 176
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1a6218da1ea99949817c0e1b85a7e7a
+      internalID: 1244769735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_261
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 176
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fa3c3b7464fe384395c5e7cf4e16a85
+      internalID: 475950620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_262
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 176
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 342067772e9e5d7488341d0129d369a8
+      internalID: -475975513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_263
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 176
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2e1c2d780675a341aabf1931efce578
+      internalID: -625710441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_264
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 176
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a7ef45519ab44a4ea3cc77530defd1a
+      internalID: -863917691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_265
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 176
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e70a895c7ad316943bf50e1b3ea70a6f
+      internalID: -2042190587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_266
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 176
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe12e3d656d770c4b8d5d5353a82ed20
+      internalID: -584329502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_267
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 176
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff20cfc6a53826479b584d8cbf7a37c
+      internalID: 181362591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_268
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 176
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fecdd0e38f67b142834e79564790bd0
+      internalID: -166691310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_269
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 176
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f6f0184d5fd8bf45a4a6fa04882fac8
+      internalID: 752884990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_270
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 176
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d2d8ba32b4aaed49a7f2a2c01571452
+      internalID: 1070201083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_271
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 176
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f48f56ff7343a409cf6cfcc7ea9361
+      internalID: 1280959030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_272
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 123
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdfc0b8a09903e14681a837bed10279e
+      internalID: -1473282724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_273
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 123
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 290780e6749f5b744b982495c6660fdb
+      internalID: -805782347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_274
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 123
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f489da4290f26c348855a697da8f9c56
+      internalID: -2008264529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_275
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 123
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b75958d7f92795b4ba86d3dc1d67626c
+      internalID: 60931550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_276
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 123
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0941844c22c7614a8ab22221ca7c02e
+      internalID: 957775545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_277
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 123
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 072a0a223d4b2eb478f2b50a652324e3
+      internalID: -983580330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_278
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 123
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94e27ea2b475bd44eb4b59cccf14bacf
+      internalID: 740231172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_279
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 123
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f4887ec8319cb24082d8717457fa9d7
+      internalID: -859481700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_280
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 123
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b83854cb64131bb438857da58d70e711
+      internalID: -594916762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_281
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 123
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3889a3460abd53344b6e4691fe73742f
+      internalID: -591666612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_282
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 123
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fda30be472abff46890be58c5dfa965
+      internalID: -522122165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_283
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 123
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3b35155ab5e5a849b6ea7987139df97
+      internalID: 934249804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_284
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 123
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03dca3ea6c795da4ebd6def6d2c7a1fd
+      internalID: -957083219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_285
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 123
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d30048938608db4984466156881adf0
+      internalID: -1225189258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_286
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 123
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 582c802b065a42340a11ac2b6f4b5cae
+      internalID: -883755169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_287
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 123
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05da583304b1c8f4885e5bcf7a04f891
+      internalID: 729949727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_288
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 123
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda1a84e93cb7e14c8e4889a3f24787e
+      internalID: -1895462043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_289
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 70
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d294ec34704e3b3469f612c5dc84d3b8
+      internalID: -920898131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_290
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 70
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dfd166933788c34b9e5612de4f3fa1a
+      internalID: 1056572205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_291
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 70
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f225dd3c07a5ca41ae4282ab4066aca
+      internalID: -86173337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_292
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 70
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5a27cfe2e716e04387dfd85267f1cc4
+      internalID: 1227825028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_293
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 70
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2868af0dc490c1c4da2cdc909a5b7e73
+      internalID: 1460018430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_294
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 70
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a7ccad04b788048a0ab2e4ea289654
+      internalID: -1453624617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_295
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 70
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ed78bcd2c523ba48b935cfd71978fc8
+      internalID: -482756635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_296
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 70
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8752477efc21f648a7d4bb44a926346
+      internalID: -1068726951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_297
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 70
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48b241a82ee63f6489f95c27581d2dd3
+      internalID: -628655733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_298
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 70
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25beffd2e821e3e4cb08dc354c257a78
+      internalID: 855538444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_299
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 70
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cdb0c954e5931248bc0e8712aefce54
+      internalID: -1394639421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_300
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 70
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4cbb80a629e3cd4b9a25044956a0b45
+      internalID: 1510824022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_301
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 70
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef548f85836ebf148af7bd868e92daac
+      internalID: -1939371522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_302
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 70
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2095990c1fc0d8a4498a079514783c06
+      internalID: -760649090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_303
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 70
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15acf1bc253647143b3f2224747328ef
+      internalID: 806363575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_304
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 70
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 209e559a1b0a4bb48abc8af3a484f11e
+      internalID: 1353153297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_305
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 70
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 766cb586a6023374e94f8cc40864caec
+      internalID: 1342953127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_306
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 17
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29addb84649cf224691b7a209e327986
+      internalID: 2039390283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_307
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 17
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f60a0e0bb5862874bb9053fd7b8ac7f8
+      internalID: -542933136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_308
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 17
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7fcab0a3798dea4f8cd29d29af0172d
+      internalID: -187965531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_309
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 17
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38209955e16eb70479e0e516398ec40e
+      internalID: 1345641689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_310
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 17
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec54dfa5992fb734c80d41be606fff9c
+      internalID: 1653732069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_311
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 17
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c4c694f17f07d4099291ab7281355e
+      internalID: 2091937160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_312
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 17
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01aeac7aeaaf52746b82b904b13c22a9
+      internalID: 581005963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_313
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 17
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ddbfdc282ee2114a8b747e68eba7a89
+      internalID: 150614415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_314
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 17
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b91da78d786203749a4bc7d2a19f4c4c
+      internalID: 1206864775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_315
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 17
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d88c8cd2294e82b4990e61444a4b0b9b
+      internalID: -72872694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_316
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 17
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a035568f9d05a2145a82a19f640999c5
+      internalID: -1494853836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_317
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 17
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b4b84937ebbab489d6f5f1be2baa44
+      internalID: 1255664674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_318
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 17
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d1901786ed78da448587f2701c9b8ba
+      internalID: 783509814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_319
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 17
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2e4cb0639053c148a750697bce0dc29
+      internalID: 582886916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_320
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 17
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c4fc89ef7cf82446a3809c628545145
+      internalID: 1623540633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_321
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 17
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acbdebf8b853647438582540f351f719
+      internalID: 1916682625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tset3_322
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 17
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1676b57a4bc465b4eb75e697c00e1432
+      internalID: -1477049997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0082631758bc5b74caf982a5be9022d2
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      tset3_0: -8430103486187094917
+      tset3_1: 3012531
+      tset3_10: -2050816746
+      tset3_100: 1396742378
+      tset3_101: 1998526427
+      tset3_102: 48579282
+      tset3_103: 1410179529
+      tset3_104: -1470760401
+      tset3_105: -2125611910
+      tset3_106: 1938266956
+      tset3_107: 80720245
+      tset3_108: 911079173
+      tset3_109: 467820860
+      tset3_11: 1576435209
+      tset3_110: 307870706
+      tset3_111: -1627071749
+      tset3_112: 1796318436
+      tset3_113: 732355772
+      tset3_114: -454404231
+      tset3_115: -249431600
+      tset3_116: -1622632623
+      tset3_117: 121773189
+      tset3_118: 71600479
+      tset3_119: -510745776
+      tset3_12: -396690952
+      tset3_120: 1800685324
+      tset3_121: 1581383201
+      tset3_122: 1869573045
+      tset3_123: 458375389
+      tset3_124: 1968151728
+      tset3_125: -635086646
+      tset3_126: 2052238926
+      tset3_127: 772339260
+      tset3_128: -616207345
+      tset3_129: -1815716813
+      tset3_13: 1973401359
+      tset3_130: -1489936803
+      tset3_131: -2144599980
+      tset3_132: -935180203
+      tset3_133: 1510391839
+      tset3_134: 1676188865
+      tset3_135: -696563183
+      tset3_136: 75440967
+      tset3_137: -950362270
+      tset3_138: -1911942453
+      tset3_139: -1396200097
+      tset3_14: -241179760
+      tset3_140: 1207878793
+      tset3_141: -2043258621
+      tset3_142: 1004030188
+      tset3_143: -1946723944
+      tset3_144: 55376934
+      tset3_145: -464010233
+      tset3_146: 638999498
+      tset3_147: -270579182
+      tset3_148: -471513988
+      tset3_149: -1479576640
+      tset3_15: 738638909
+      tset3_150: 1343217475
+      tset3_151: -517957626
+      tset3_152: 1577651903
+      tset3_153: -1157916576
+      tset3_154: 386707837
+      tset3_155: -1169407117
+      tset3_156: 1310419351
+      tset3_157: -337915227
+      tset3_158: -1534415673
+      tset3_159: 304090257
+      tset3_16: 1414180302
+      tset3_160: 1485819223
+      tset3_161: 1607868500
+      tset3_162: -2131159530
+      tset3_163: -1743478703
+      tset3_164: -200185290
+      tset3_165: -1329682044
+      tset3_166: -1068357696
+      tset3_167: -72202392
+      tset3_168: -63578455
+      tset3_169: -2028443293
+      tset3_17: -670077964
+      tset3_170: 357161746
+      tset3_171: 1432931800
+      tset3_172: -226089324
+      tset3_173: 1020267336
+      tset3_174: -1832467037
+      tset3_175: -937109694
+      tset3_176: -1089374824
+      tset3_177: -1473411802
+      tset3_178: 2112049
+      tset3_179: -1553856252
+      tset3_18: 1456840843
+      tset3_180: -638238569
+      tset3_181: -1285155492
+      tset3_182: 2071119726
+      tset3_183: 1215533536
+      tset3_184: 104971990
+      tset3_185: -1971100322
+      tset3_186: -427657064
+      tset3_187: -1412050034
+      tset3_188: 2112705976
+      tset3_189: -1984179980
+      tset3_19: 1727496859
+      tset3_190: 373440052
+      tset3_191: 1109501695
+      tset3_192: 1136209445
+      tset3_193: -361318907
+      tset3_194: 847175052
+      tset3_195: -440046847
+      tset3_196: -1015210708
+      tset3_197: -1091070096
+      tset3_198: -1647297879
+      tset3_199: -708696748
+      tset3_2: -525946993
+      tset3_20: -2141872365
+      tset3_200: 1801196868
+      tset3_201: -1546063103
+      tset3_202: 1596448995
+      tset3_203: -172380273
+      tset3_204: -883582409
+      tset3_205: -1125459973
+      tset3_206: -1600294363
+      tset3_207: 1491656296
+      tset3_208: 1985697169
+      tset3_209: 1623116505
+      tset3_21: -1327156014
+      tset3_210: 1694087883
+      tset3_211: -644763975
+      tset3_212: 1895824559
+      tset3_213: -716175966
+      tset3_214: 757495271
+      tset3_215: -1978375876
+      tset3_216: 493940230
+      tset3_217: 252898112
+      tset3_218: -1242548648
+      tset3_219: 972393747
+      tset3_22: -566490045
+      tset3_220: 1596507036
+      tset3_221: 1670633677
+      tset3_222: 1786147675
+      tset3_223: -1787002174
+      tset3_224: 812608799
+      tset3_225: 1768599380
+      tset3_226: 716652563
+      tset3_227: 1666885615
+      tset3_228: 486441294
+      tset3_229: 162466146
+      tset3_23: 2088840690
+      tset3_230: -1316137860
+      tset3_231: -1183127089
+      tset3_232: -283917538
+      tset3_233: 1438597916
+      tset3_234: 218745754
+      tset3_235: -395136299
+      tset3_236: 749540004
+      tset3_237: 1600504854
+      tset3_238: -1232994040
+      tset3_239: -203341953
+      tset3_24: 1031186197
+      tset3_240: -1998043603
+      tset3_241: -489360479
+      tset3_242: -1282503435
+      tset3_243: -2072015656
+      tset3_244: 593064434
+      tset3_245: -804273680
+      tset3_246: 1848901837
+      tset3_247: -629822510
+      tset3_248: -91837998
+      tset3_249: -468361243
+      tset3_25: -349247392
+      tset3_250: -2128594186
+      tset3_251: 839227407
+      tset3_252: -1114997946
+      tset3_253: 1972164566
+      tset3_254: -540140135
+      tset3_255: 1568564546
+      tset3_256: 1577399747
+      tset3_257: 1047101134
+      tset3_258: -1517465002
+      tset3_259: -1044297917
+      tset3_26: 1630170563
+      tset3_260: 1244769735
+      tset3_261: 475950620
+      tset3_262: -475975513
+      tset3_263: -625710441
+      tset3_264: -863917691
+      tset3_265: -2042190587
+      tset3_266: -584329502
+      tset3_267: 181362591
+      tset3_268: -166691310
+      tset3_269: 752884990
+      tset3_27: 1978064500
+      tset3_270: 1070201083
+      tset3_271: 1280959030
+      tset3_272: -1473282724
+      tset3_273: -805782347
+      tset3_274: -2008264529
+      tset3_275: 60931550
+      tset3_276: 957775545
+      tset3_277: -983580330
+      tset3_278: 740231172
+      tset3_279: -859481700
+      tset3_28: 422094679
+      tset3_280: -594916762
+      tset3_281: -591666612
+      tset3_282: -522122165
+      tset3_283: 934249804
+      tset3_284: -957083219
+      tset3_285: -1225189258
+      tset3_286: -883755169
+      tset3_287: 729949727
+      tset3_288: -1895462043
+      tset3_289: -920898131
+      tset3_29: 846100126
+      tset3_290: 1056572205
+      tset3_291: -86173337
+      tset3_292: 1227825028
+      tset3_293: 1460018430
+      tset3_294: -1453624617
+      tset3_295: -482756635
+      tset3_296: -1068726951
+      tset3_297: -628655733
+      tset3_298: 855538444
+      tset3_299: -1394639421
+      tset3_3: 1730532065
+      tset3_30: -1345812948
+      tset3_300: 1510824022
+      tset3_301: -1939371522
+      tset3_302: -760649090
+      tset3_303: 806363575
+      tset3_304: 1353153297
+      tset3_305: 1342953127
+      tset3_306: 2039390283
+      tset3_307: -542933136
+      tset3_308: -187965531
+      tset3_309: 1345641689
+      tset3_31: -1188636225
+      tset3_310: 1653732069
+      tset3_311: 2091937160
+      tset3_312: 581005963
+      tset3_313: 150614415
+      tset3_314: 1206864775
+      tset3_315: -72872694
+      tset3_316: -1494853836
+      tset3_317: 1255664674
+      tset3_318: 783509814
+      tset3_319: 582886916
+      tset3_32: 339214769
+      tset3_320: 1623540633
+      tset3_321: 1916682625
+      tset3_322: -1477049997
+      tset3_33: -1166768730
+      tset3_34: 268532292
+      tset3_35: -654333950
+      tset3_36: 193072010
+      tset3_37: 661600411
+      tset3_38: -1267946054
+      tset3_39: 144381978
+      tset3_4: -767521907
+      tset3_40: -1905909979
+      tset3_41: -720114831
+      tset3_42: -961182401
+      tset3_43: -1584234383
+      tset3_44: 2085494240
+      tset3_45: -1857185572
+      tset3_46: -762427621
+      tset3_47: 468945703
+      tset3_48: -895462801
+      tset3_49: 529825412
+      tset3_5: 277160263
+      tset3_50: -767419359
+      tset3_51: 763180410
+      tset3_52: -1858586373
+      tset3_53: 444019281
+      tset3_54: 701772674
+      tset3_55: 1132135110
+      tset3_56: 2093453250
+      tset3_57: 1302676071
+      tset3_58: 1093157810
+      tset3_59: 2128819977
+      tset3_6: 686641740
+      tset3_60: -954999581
+      tset3_61: -1499188816
+      tset3_62: 1852256612
+      tset3_63: -1771884957
+      tset3_64: -1979682360
+      tset3_65: -2065312156
+      tset3_66: -1314580920
+      tset3_67: 55884683
+      tset3_68: -25072760
+      tset3_69: 475447464
+      tset3_7: -1688624514
+      tset3_70: -125509403
+      tset3_71: 702948737
+      tset3_72: 692843295
+      tset3_73: -1188412655
+      tset3_74: -39186708
+      tset3_75: 1849096189
+      tset3_76: 1329938322
+      tset3_77: -647432669
+      tset3_78: -1584291460
+      tset3_79: -1294446008
+      tset3_8: -1005950644
+      tset3_80: 1114683637
+      tset3_81: -1971627632
+      tset3_82: -1407043377
+      tset3_83: 1993634770
+      tset3_84: 1867810616
+      tset3_85: -1597110461
+      tset3_86: -708192594
+      tset3_87: 418262962
+      tset3_88: -883795517
+      tset3_89: 340903224
+      tset3_9: 511867664
+      tset3_90: -1654811802
+      tset3_91: 469387194
+      tset3_92: 587170262
+      tset3_93: 1568048674
+      tset3_94: 1699781807
+      tset3_95: 1870091692
+      tset3_96: 1919029733
+      tset3_97: -47457051
+      tset3_98: -1026449424
+      tset3_99: 1181811307
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
