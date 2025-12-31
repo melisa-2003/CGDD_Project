@@ -5,7 +5,7 @@ public class MainMenuUI : MonoBehaviour
 {
     public void PlayGame()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene("Purity");
 
         Debug.Log("Play Button Clicked");
     }

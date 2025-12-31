@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 12ecc1791e4501b43bc587efbd05161b
+guid: 5fa45892db8f6664cb918a20f53bd40b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2188931085002758391
-    second: icons8-info-50_0
+      213: -7512151853844245964
+    second: tap_0
+  - first:
+      213: -3311114313877805598
+    second: tap_1
+  - first:
+      213: 8625413620784915326
+    second: tap_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +132,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: icons8-info-50_0
+      name: tap_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 1
-        width: 48
-        height: 48
+        x: 260
+        y: 751
+        width: 376
+        height: 205
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +147,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 907a99096ca5f91e0800000000000000
-      internalID: -2188931085002758391
+      spriteID: 43252d4a0b97fb790800000000000000
+      internalID: -7512151853844245964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tap_1
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 228
+        width: 504
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e52a96131f8c02d0800000000000000
+      internalID: -3311114313877805598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tap_2
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 68
+        width: 376
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7363bb1dff93b770800000000000000
+      internalID: 8625413620784915326
       vertices: []
       indices: 
       edges: []
@@ -161,7 +211,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      icons8-info-50_0: -2188931085002758391
+      tap_0: -7512151853844245964
+      tap_1: -3311114313877805598
+      tap_2: 8625413620784915326
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

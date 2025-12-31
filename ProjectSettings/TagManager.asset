@@ -41,6 +41,9 @@ TagManager:
   - name: Background
     uniqueID: 4105650377
     locked: 0
+  - name: MainMenu
+    uniqueID: 894702713
+    locked: 0
   - name: Layer1_background
     uniqueID: 1374897565
     locked: 0
