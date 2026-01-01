@@ -1,139 +1,139 @@
 fileFormatVersion: 2
-guid: 90c7351645cc1ad4bafadaa8409ceb8c
+guid: 88f677c43f49e9741b4fcdb821a23250
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6988359357063696304
-    second: sprite_HTAttack_0
+      213: -1235324513875803732
+    second: sprite_HTAttack_Updated_0
   - first:
-      213: -6246045688351039820
-    second: sprite_HTAttack_1
+      213: 463124955739820962
+    second: sprite_HTAttack_Updated_1
   - first:
-      213: -1255417095477567834
-    second: sprite_HTAttack_2
+      213: 8132297696333316226
+    second: sprite_HTAttack_Updated_2
   - first:
-      213: 3996136382365604990
-    second: sprite_HTAttack_3
+      213: 4865000573288105158
+    second: sprite_HTAttack_Updated_3
   - first:
-      213: -2660629360388551977
-    second: sprite_HTAttack_4
+      213: -6683099341543252408
+    second: sprite_HTAttack_Updated_4
   - first:
-      213: 94967677452164831
-    second: sprite_HTAttack_5
+      213: 4900292854130940738
+    second: sprite_HTAttack_Updated_5
   - first:
-      213: 2750898997031877474
-    second: sprite_HTAttack_6
+      213: -1779184246832262256
+    second: sprite_HTAttack_Updated_6
   - first:
-      213: 3190404681925447723
-    second: sprite_HTAttack_7
+      213: 1340050588652513041
+    second: sprite_HTAttack_Updated_7
   - first:
-      213: -1987821703601098741
-    second: sprite_HTAttack_8
+      213: -2076808414671386467
+    second: sprite_HTAttack_Updated_8
   - first:
-      213: -1692396937979745890
-    second: sprite_HTAttack_9
+      213: -9110570429602295918
+    second: sprite_HTAttack_Updated_9
   - first:
-      213: 449469975078466715
-    second: sprite_HTAttack_10
+      213: -6643461293701907601
+    second: sprite_HTAttack_Updated_10
   - first:
-      213: -4840456741211232904
-    second: sprite_HTAttack_11
+      213: -5871220255388650883
+    second: sprite_HTAttack_Updated_11
   - first:
-      213: -1089993047977791792
-    second: sprite_HTAttack_12
+      213: 7001005334088372791
+    second: sprite_HTAttack_Updated_12
   - first:
-      213: -3607873810339050849
-    second: sprite_HTAttack_13
+      213: 3617565845690336009
+    second: sprite_HTAttack_Updated_13
   - first:
-      213: -1512876440806770460
-    second: sprite_HTAttack_14
+      213: -660722369267941401
+    second: sprite_HTAttack_Updated_14
   - first:
-      213: -4401765569758822135
-    second: sprite_HTAttack_15
+      213: 1621550813205012215
+    second: sprite_HTAttack_Updated_15
   - first:
-      213: 7489934508263996260
-    second: sprite_HTAttack_16
+      213: -8550249243590097893
+    second: sprite_HTAttack_Updated_16
   - first:
-      213: 6408437306609293268
-    second: sprite_HTAttack_17
+      213: -6934786328125315706
+    second: sprite_HTAttack_Updated_17
   - first:
-      213: -6498782135078976767
-    second: sprite_HTAttack_18
+      213: -4217761984200934694
+    second: sprite_HTAttack_Updated_18
   - first:
-      213: -5604707315693526102
-    second: sprite_HTAttack_19
+      213: 4516450673972673991
+    second: sprite_HTAttack_Updated_19
   - first:
-      213: -7273950921241819946
-    second: sprite_HTAttack_20
+      213: -4352073226759128350
+    second: sprite_HTAttack_Updated_20
   - first:
-      213: -7469562035927349636
-    second: sprite_HTAttack_21
+      213: -1915823967797787729
+    second: sprite_HTAttack_Updated_21
   - first:
-      213: 1228255705126496836
-    second: sprite_HTAttack_22
+      213: -5791028115047728611
+    second: sprite_HTAttack_Updated_22
   - first:
-      213: -2351245148438528579
-    second: sprite_HTAttack_23
+      213: 3714642617113084864
+    second: sprite_HTAttack_Updated_23
   - first:
-      213: 2618711281151295670
-    second: sprite_HTAttack_24
+      213: 4717752102642363074
+    second: sprite_HTAttack_Updated_24
   - first:
-      213: 7569933300797668781
-    second: sprite_HTAttack_25
+      213: -5225585809260922464
+    second: sprite_HTAttack_Updated_25
   - first:
-      213: 4758890086692914377
-    second: sprite_HTAttack_26
+      213: 5836391282802699159
+    second: sprite_HTAttack_Updated_26
   - first:
-      213: 9103244197318114818
-    second: sprite_HTAttack_27
+      213: 3476075236113045156
+    second: sprite_HTAttack_Updated_27
   - first:
-      213: -6326407474405234613
-    second: sprite_HTAttack_28
+      213: 5351524551030459104
+    second: sprite_HTAttack_Updated_28
   - first:
-      213: 1512243388333891882
-    second: sprite_HTAttack_29
+      213: 213399801065279577
+    second: sprite_HTAttack_Updated_29
   - first:
-      213: -3234689267390944696
-    second: sprite_HTAttack_30
+      213: -8131207803903193381
+    second: sprite_HTAttack_Updated_30
   - first:
-      213: 8135269329424598147
-    second: sprite_HTAttack_31
+      213: 6848919177280853746
+    second: sprite_HTAttack_Updated_31
   - first:
-      213: -8897941231435937013
-    second: sprite_HTAttack_32
+      213: -2633112196031366561
+    second: sprite_HTAttack_Updated_32
   - first:
-      213: 5290287357562220617
-    second: sprite_HTAttack_33
+      213: 7126251476643246291
+    second: sprite_HTAttack_Updated_33
   - first:
-      213: -4623444168173983579
-    second: sprite_HTAttack_34
+      213: -4222968765851103732
+    second: sprite_HTAttack_Updated_34
   - first:
-      213: 7321201444489970999
-    second: sprite_HTAttack_35
+      213: -7722373793774219434
+    second: sprite_HTAttack_Updated_35
   - first:
-      213: -243842969309432867
-    second: sprite_HTAttack_36
+      213: -8771666587783648861
+    second: sprite_HTAttack_Updated_36
   - first:
-      213: 1169006651409599221
-    second: sprite_HTAttack_37
+      213: 8968318530507284184
+    second: sprite_HTAttack_Updated_37
   - first:
-      213: 4652068532529942643
-    second: sprite_HTAttack_38
+      213: 6771080451804145401
+    second: sprite_HTAttack_Updated_38
   - first:
-      213: 7140605199081313443
-    second: sprite_HTAttack_39
+      213: -2632537204767517438
+    second: sprite_HTAttack_Updated_39
   - first:
-      213: -4900069669045390622
-    second: sprite_HTAttack_40
+      213: -2551551358493316357
+    second: sprite_HTAttack_Updated_40
   - first:
-      213: -7685773120303186049
-    second: sprite_HTAttack_41
+      213: -4519843214346489818
+    second: sprite_HTAttack_Updated_41
   - first:
-      213: 1400259388454017360
-    second: sprite_HTAttack_42
+      213: -4420700105856076219
+    second: sprite_HTAttack_Updated_42
   - first:
-      213: -2099789167739414538
-    second: sprite_HTAttack_43
+      213: -7246779550366068950
+    second: sprite_HTAttack_Updated_43
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -242,7 +242,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sprite_HTAttack_0
+      name: sprite_HTAttack_Updated_0
       rect:
         serializedVersion: 2
         x: 212
@@ -257,14 +257,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0bf0f803fc3abf060800000000000000
-      internalID: 6988359357063696304
+      spriteID: ca1c91056ee3bdee0800000000000000
+      internalID: -1235324513875803732
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite_HTAttack_1
+      name: sprite_HTAttack_Updated_1
       rect:
         serializedVersion: 2
         x: 485
@@ -279,14 +279,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4bed9f61a869159a0800000000000000
-      internalID: -6246045688351039820
+      spriteID: 2a39d7981b95d6600800000000000000
+      internalID: 463124955739820962
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite_HTAttack_2
+      name: sprite_HTAttack_Updated_2
       rect:
         serializedVersion: 2
         x: 1291
@@ -301,14 +301,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6ae5b1b9dccd39ee0800000000000000
-      internalID: -1255417095477567834
+      spriteID: 280cca50ba9bbd070800000000000000
+      internalID: 8132297696333316226
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite_HTAttack_3
+      name: sprite_HTAttack_Updated_3
       rect:
         serializedVersion: 2
         x: 1538
@@ -323,14 +323,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e7c9ae80ed0257730800000000000000
-      internalID: 3996136382365604990
+      spriteID: 6c4c8eade34f38340800000000000000
+      internalID: 4865000573288105158
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite_HTAttack_4
+      name: sprite_HTAttack_Updated_4
       rect:
         serializedVersion: 2
         x: 2509
@@ -345,14 +345,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7dac01f71bb831bd0800000000000000
-      internalID: -2660629360388551977
+      spriteID: 84edaa4be8cd043a0800000000000000
+      internalID: -6683099341543252408
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite_HTAttack_5
+      name: sprite_HTAttack_Updated_5
       rect:
         serializedVersion: 2
         x: 2565
@@ -367,14 +367,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fde1ea77994615100800000000000000
-      internalID: 94967677452164831
+      spriteID: 24b1cd15366510440800000000000000
+      internalID: 4900292854130940738
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite_HTAttack_6
+      name: sprite_HTAttack_Updated_6
       rect:
         serializedVersion: 2
         x: 2631
@@ -389,61 +389,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 26b301b10182d2620800000000000000
-      internalID: 2750898997031877474
+      spriteID: 0939791aa511f47e0800000000000000
+      internalID: -1779184246832262256
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite_HTAttack_7
+      name: sprite_HTAttack_Updated_7
       rect:
         serializedVersion: 2
-        x: 3661
-        y: 588
-        width: 199
-        height: 446
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b20d8eb9728964c20800000000000000
-      internalID: 3190404681925447723
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprite_HTAttack_8
-      rect:
-        serializedVersion: 2
-        x: 3806
-        y: 575
-        width: 238
-        height: 331
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b007b0841b6d964e0800000000000000
-      internalID: -1987821703601098741
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprite_HTAttack_9
-      rect:
-        serializedVersion: 2
-        x: 4785
+        x: 3691
         y: 572
         width: 404
         height: 420
@@ -455,14 +411,58 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e9922cc93f56388e0800000000000000
-      internalID: -1692396937979745890
+      spriteID: 117afa519e0d89210800000000000000
+      internalID: 1340050588652513041
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite_HTAttack_10
+      name: sprite_HTAttack_Updated_8
+      rect:
+        serializedVersion: 2
+        x: 4755
+        y: 588
+        width: 199
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9848f010c1bd23e0800000000000000
+      internalID: -2076808414671386467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_HTAttack_Updated_9
+      rect:
+        serializedVersion: 2
+        x: 4900
+        y: 575
+        width: 238
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29f8062d670c09180800000000000000
+      internalID: -9110570429602295918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_HTAttack_Updated_10
       rect:
         serializedVersion: 2
         x: 5914
@@ -477,14 +477,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b9471c99f86dc3600800000000000000
-      internalID: 449469975078466715
+      spriteID: f6b37d5e62fadc3a0800000000000000
+      internalID: -6643461293701907601
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite_HTAttack_11
+      name: sprite_HTAttack_Updated_11
       rect:
         serializedVersion: 2
         x: 2618
@@ -499,14 +499,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 875a57d5d3e33dcb0800000000000000
-      internalID: -4840456741211232904
+      spriteID: d723b77e84c358ea0800000000000000
+      internalID: -5871220255388650883
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite_HTAttack_12
+      name: sprite_HTAttack_Updated_12
       rect:
         serializedVersion: 2
         x: 458
@@ -521,14 +521,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0de63af09119fd0f0800000000000000
-      internalID: -1089993047977791792
+      spriteID: 732d3f82241982160800000000000000
+      internalID: 7001005334088372791
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite_HTAttack_13
+      name: sprite_HTAttack_Updated_13
       rect:
         serializedVersion: 2
         x: 622
@@ -543,14 +543,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f9a4e4482e14eedc0800000000000000
-      internalID: -3607873810339050849
+      spriteID: 90345ff48fc243230800000000000000
+      internalID: 3617565845690336009
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite_HTAttack_14
+      name: sprite_HTAttack_Updated_14
       rect:
         serializedVersion: 2
         x: 665
@@ -565,14 +565,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4e8b7a484ee210be0800000000000000
-      internalID: -1512876440806770460
+      spriteID: 7ef31ac7184a4d6f0800000000000000
+      internalID: -660722369267941401
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite_HTAttack_15
+      name: sprite_HTAttack_Updated_15
       rect:
         serializedVersion: 2
         x: 1475
@@ -587,14 +587,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9010bfd2989c9e2c0800000000000000
-      internalID: -4401765569758822135
+      spriteID: 7fe945e8fd7e08610800000000000000
+      internalID: 1621550813205012215
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite_HTAttack_16
+      name: sprite_HTAttack_Updated_16
       rect:
         serializedVersion: 2
         x: 2771
@@ -609,14 +609,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 46bf30c70c791f760800000000000000
-      internalID: 7489934508263996260
+      spriteID: b1482c63d99675980800000000000000
+      internalID: -8550249243590097893
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite_HTAttack_17
+      name: sprite_HTAttack_Updated_17
       rect:
         serializedVersion: 2
         x: 2815
@@ -631,105 +631,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4d7dec9e6c75fe850800000000000000
-      internalID: 6408437306609293268
+      spriteID: 685eade9390b2cf90800000000000000
+      internalID: -6934786328125315706
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite_HTAttack_18
+      name: sprite_HTAttack_Updated_18
       rect:
         serializedVersion: 2
-        x: 3772
-        y: 280
-        width: 352
-        height: 273
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 10386f58410bfc5a0800000000000000
-      internalID: -6498782135078976767
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprite_HTAttack_19
-      rect:
-        serializedVersion: 2
-        x: 3890
-        y: 545
-        width: 21
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: aa3ed0234641832b0800000000000000
-      internalID: -5604707315693526102
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprite_HTAttack_20
-      rect:
-        serializedVersion: 2
-        x: 3913
-        y: 540
-        width: 44
-        height: 39
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6d481c91d2cbd0b90800000000000000
-      internalID: -7273950921241819946
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprite_HTAttack_21
-      rect:
-        serializedVersion: 2
-        x: 3960
-        y: 540
-        width: 71
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c768ecc57e8c65890800000000000000
-      internalID: -7469562035927349636
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprite_HTAttack_22
-      rect:
-        serializedVersion: 2
-        x: 4822
+        x: 3728
         y: 272
         width: 366
         height: 273
@@ -741,17 +653,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 44a69656e04ab0110800000000000000
-      internalID: 1228255705126496836
+      spriteID: ada7e8072df7775c0800000000000000
+      internalID: -4217761984200934694
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite_HTAttack_23
+      name: sprite_HTAttack_Updated_19
       rect:
         serializedVersion: 2
-        x: 4954
+        x: 3860
         y: 541
         width: 21
         height: 32
@@ -763,17 +675,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dbdf573bef2be5fd0800000000000000
-      internalID: -2351245148438528579
+      spriteID: 7cdf6b375f7adae30800000000000000
+      internalID: 4516450673972673991
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite_HTAttack_24
+      name: sprite_HTAttack_Updated_20
       rect:
         serializedVersion: 2
-        x: 4975
+        x: 3881
         y: 533
         width: 41
         height: 38
@@ -785,17 +697,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6b0c4522908875420800000000000000
-      internalID: 2618711281151295670
+      spriteID: 2eab88265745a93c0800000000000000
+      internalID: -4352073226759128350
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite_HTAttack_25
+      name: sprite_HTAttack_Updated_21
       rect:
         serializedVersion: 2
-        x: 5021
+        x: 3927
         y: 534
         width: 68
         height: 46
@@ -807,14 +719,102 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dadf177da3ecd0960800000000000000
-      internalID: 7569933300797668781
+      spriteID: fa3cb337040a965e0800000000000000
+      internalID: -1915823967797787729
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite_HTAttack_26
+      name: sprite_HTAttack_Updated_22
+      rect:
+        serializedVersion: 2
+        x: 4866
+        y: 280
+        width: 352
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1ab74e8c9222afa0800000000000000
+      internalID: -5791028115047728611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_HTAttack_Updated_23
+      rect:
+        serializedVersion: 2
+        x: 4984
+        y: 545
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c38d8c77cf0d8330800000000000000
+      internalID: 3714642617113084864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_HTAttack_Updated_24
+      rect:
+        serializedVersion: 2
+        x: 5007
+        y: 540
+        width: 44
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2caa958aa82d87140800000000000000
+      internalID: 4717752102642363074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_HTAttack_Updated_25
+      rect:
+        serializedVersion: 2
+        x: 5054
+        y: 540
+        width: 71
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a93eaf846dfa77b0800000000000000
+      internalID: -5225585809260922464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_HTAttack_Updated_26
       rect:
         serializedVersion: 2
         x: 5587
@@ -829,14 +829,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9c48576f159fa0240800000000000000
-      internalID: 4758890086692914377
+      spriteID: 79b24adf2f60ff050800000000000000
+      internalID: 5836391282802699159
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite_HTAttack_27
+      name: sprite_HTAttack_Updated_27
       rect:
         serializedVersion: 2
         x: 6056
@@ -851,14 +851,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 20e38cccd58355e70800000000000000
-      internalID: 9103244197318114818
+      spriteID: 4a6dc0d92008d3030800000000000000
+      internalID: 3476075236113045156
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite_HTAttack_28
+      name: sprite_HTAttack_Updated_28
       rect:
         serializedVersion: 2
         x: 6122
@@ -873,14 +873,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b4823b7bbe51438a0800000000000000
-      internalID: -6326407474405234613
+      spriteID: 0eac3feb93f644a40800000000000000
+      internalID: 5351524551030459104
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite_HTAttack_29
+      name: sprite_HTAttack_Updated_29
       rect:
         serializedVersion: 2
         x: 388
@@ -895,14 +895,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a21239779519cf410800000000000000
-      internalID: 1512243388333891882
+      spriteID: 95092a90df526f200800000000000000
+      internalID: 213399801065279577
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite_HTAttack_30
+      name: sprite_HTAttack_Updated_30
       rect:
         serializedVersion: 2
         x: 776
@@ -917,14 +917,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 84ae46adf331c13d0800000000000000
-      internalID: -3234689267390944696
+      spriteID: bde47755595282f80800000000000000
+      internalID: -8131207803903193381
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite_HTAttack_31
+      name: sprite_HTAttack_Updated_31
       rect:
         serializedVersion: 2
         x: 779
@@ -939,14 +939,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 384cb744a5846e070800000000000000
-      internalID: 8135269329424598147
+      spriteID: 2f69f2164bf3c0f50800000000000000
+      internalID: 6848919177280853746
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite_HTAttack_32
+      name: sprite_HTAttack_Updated_32
       rect:
         serializedVersion: 2
         x: 1844
@@ -961,14 +961,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b0b85f3e799248480800000000000000
-      internalID: -8897941231435937013
+      spriteID: f5a3dc5986e457bd0800000000000000
+      internalID: -2633112196031366561
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite_HTAttack_33
+      name: sprite_HTAttack_Updated_33
       rect:
         serializedVersion: 2
         x: 2569
@@ -983,14 +983,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9407c339250ea6940800000000000000
-      internalID: 5290287357562220617
+      spriteID: 3d07c6526f785e260800000000000000
+      internalID: 7126251476643246291
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite_HTAttack_34
+      name: sprite_HTAttack_Updated_34
       rect:
         serializedVersion: 2
         x: 2939
@@ -1005,83 +1005,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5a8632d660a36dfb0800000000000000
-      internalID: -4623444168173983579
+      spriteID: c0e00ed18400565c0800000000000000
+      internalID: -4222968765851103732
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite_HTAttack_35
+      name: sprite_HTAttack_Updated_35
       rect:
         serializedVersion: 2
         x: 3668
-        y: 88
-        width: 160
-        height: 208
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 735c6e3ace12a9560800000000000000
-      internalID: 7321201444489970999
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprite_HTAttack_36
-      rect:
-        serializedVersion: 2
-        x: 4061
-        y: 73
-        width: 135
-        height: 229
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dd3b5518c12bd9cf0800000000000000
-      internalID: -243842969309432867
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprite_HTAttack_37
-      rect:
-        serializedVersion: 2
-        x: 4072
-        y: 273
-        width: 27
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5fa86551b55293010800000000000000
-      internalID: 1169006651409599221
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprite_HTAttack_38
-      rect:
-        serializedVersion: 2
-        x: 4762
         y: 89
         width: 128
         height: 209
@@ -1093,17 +1027,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3705830cea77f8040800000000000000
-      internalID: 4652068532529942643
+      spriteID: 65f4d4f03fd94d490800000000000000
+      internalID: -7722373793774219434
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite_HTAttack_39
+      name: sprite_HTAttack_Updated_36
       rect:
         serializedVersion: 2
-        x: 5136
+        x: 4042
         y: 74
         width: 159
         height: 216
@@ -1115,14 +1049,80 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3a49c849896881360800000000000000
-      internalID: 7140605199081313443
+      spriteID: 3a92ef276b7c44680800000000000000
+      internalID: -8771666587783648861
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite_HTAttack_40
+      name: sprite_HTAttack_Updated_37
+      rect:
+        serializedVersion: 2
+        x: 4762
+        y: 88
+        width: 160
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8de9073ff2ed57c70800000000000000
+      internalID: 8968318530507284184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_HTAttack_Updated_38
+      rect:
+        serializedVersion: 2
+        x: 5155
+        y: 73
+        width: 135
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f6a063dbc5b7fd50800000000000000
+      internalID: 6771080451804145401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_HTAttack_Updated_39
+      rect:
+        serializedVersion: 2
+        x: 5166
+        y: 273
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20515db2c59577bd0800000000000000
+      internalID: -2632537204767517438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_HTAttack_Updated_40
       rect:
         serializedVersion: 2
         x: 5852
@@ -1137,14 +1137,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2e232e109947ffbb0800000000000000
-      internalID: -4900069669045390622
+      spriteID: bfa27d2ee81179cd0800000000000000
+      internalID: -2551551358493316357
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite_HTAttack_41
+      name: sprite_HTAttack_Updated_41
       rect:
         serializedVersion: 2
         x: 5908
@@ -1159,14 +1159,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f7f351c6116a65590800000000000000
-      internalID: -7685773120303186049
+      spriteID: 620fa603b8a4641c0800000000000000
+      internalID: -4519843214346489818
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite_HTAttack_42
+      name: sprite_HTAttack_Updated_42
       rect:
         serializedVersion: 2
         x: 6241
@@ -1181,14 +1181,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0591532be78be6310800000000000000
-      internalID: 1400259388454017360
+      spriteID: 546bae3fca486a2c0800000000000000
+      internalID: -4420700105856076219
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite_HTAttack_43
+      name: sprite_HTAttack_Updated_43
       rect:
         serializedVersion: 2
         x: 6250
@@ -1203,8 +1203,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6f7dda980ec0cd2e0800000000000000
-      internalID: -2099789167739414538
+      spriteID: a2f8dded4644e6b90800000000000000
+      internalID: -7246779550366068950
       vertices: []
       indices: 
       edges: []
@@ -1223,50 +1223,50 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      sprite_HTAttack_0: 6988359357063696304
-      sprite_HTAttack_1: -6246045688351039820
-      sprite_HTAttack_10: 449469975078466715
-      sprite_HTAttack_11: -4840456741211232904
-      sprite_HTAttack_12: -1089993047977791792
-      sprite_HTAttack_13: -3607873810339050849
-      sprite_HTAttack_14: -1512876440806770460
-      sprite_HTAttack_15: -4401765569758822135
-      sprite_HTAttack_16: 7489934508263996260
-      sprite_HTAttack_17: 6408437306609293268
-      sprite_HTAttack_18: -6498782135078976767
-      sprite_HTAttack_19: -5604707315693526102
-      sprite_HTAttack_2: -1255417095477567834
-      sprite_HTAttack_20: -7273950921241819946
-      sprite_HTAttack_21: -7469562035927349636
-      sprite_HTAttack_22: 1228255705126496836
-      sprite_HTAttack_23: -2351245148438528579
-      sprite_HTAttack_24: 2618711281151295670
-      sprite_HTAttack_25: 7569933300797668781
-      sprite_HTAttack_26: 4758890086692914377
-      sprite_HTAttack_27: 9103244197318114818
-      sprite_HTAttack_28: -6326407474405234613
-      sprite_HTAttack_29: 1512243388333891882
-      sprite_HTAttack_3: 3996136382365604990
-      sprite_HTAttack_30: -3234689267390944696
-      sprite_HTAttack_31: 8135269329424598147
-      sprite_HTAttack_32: -8897941231435937013
-      sprite_HTAttack_33: 5290287357562220617
-      sprite_HTAttack_34: -4623444168173983579
-      sprite_HTAttack_35: 7321201444489970999
-      sprite_HTAttack_36: -243842969309432867
-      sprite_HTAttack_37: 1169006651409599221
-      sprite_HTAttack_38: 4652068532529942643
-      sprite_HTAttack_39: 7140605199081313443
-      sprite_HTAttack_4: -2660629360388551977
-      sprite_HTAttack_40: -4900069669045390622
-      sprite_HTAttack_41: -7685773120303186049
-      sprite_HTAttack_42: 1400259388454017360
-      sprite_HTAttack_43: -2099789167739414538
-      sprite_HTAttack_5: 94967677452164831
-      sprite_HTAttack_6: 2750898997031877474
-      sprite_HTAttack_7: 3190404681925447723
-      sprite_HTAttack_8: -1987821703601098741
-      sprite_HTAttack_9: -1692396937979745890
+      sprite_HTAttack_Updated_0: -1235324513875803732
+      sprite_HTAttack_Updated_1: 463124955739820962
+      sprite_HTAttack_Updated_10: -6643461293701907601
+      sprite_HTAttack_Updated_11: -5871220255388650883
+      sprite_HTAttack_Updated_12: 7001005334088372791
+      sprite_HTAttack_Updated_13: 3617565845690336009
+      sprite_HTAttack_Updated_14: -660722369267941401
+      sprite_HTAttack_Updated_15: 1621550813205012215
+      sprite_HTAttack_Updated_16: -8550249243590097893
+      sprite_HTAttack_Updated_17: -6934786328125315706
+      sprite_HTAttack_Updated_18: -4217761984200934694
+      sprite_HTAttack_Updated_19: 4516450673972673991
+      sprite_HTAttack_Updated_2: 8132297696333316226
+      sprite_HTAttack_Updated_20: -4352073226759128350
+      sprite_HTAttack_Updated_21: -1915823967797787729
+      sprite_HTAttack_Updated_22: -5791028115047728611
+      sprite_HTAttack_Updated_23: 3714642617113084864
+      sprite_HTAttack_Updated_24: 4717752102642363074
+      sprite_HTAttack_Updated_25: -5225585809260922464
+      sprite_HTAttack_Updated_26: 5836391282802699159
+      sprite_HTAttack_Updated_27: 3476075236113045156
+      sprite_HTAttack_Updated_28: 5351524551030459104
+      sprite_HTAttack_Updated_29: 213399801065279577
+      sprite_HTAttack_Updated_3: 4865000573288105158
+      sprite_HTAttack_Updated_30: -8131207803903193381
+      sprite_HTAttack_Updated_31: 6848919177280853746
+      sprite_HTAttack_Updated_32: -2633112196031366561
+      sprite_HTAttack_Updated_33: 7126251476643246291
+      sprite_HTAttack_Updated_34: -4222968765851103732
+      sprite_HTAttack_Updated_35: -7722373793774219434
+      sprite_HTAttack_Updated_36: -8771666587783648861
+      sprite_HTAttack_Updated_37: 8968318530507284184
+      sprite_HTAttack_Updated_38: 6771080451804145401
+      sprite_HTAttack_Updated_39: -2632537204767517438
+      sprite_HTAttack_Updated_4: -6683099341543252408
+      sprite_HTAttack_Updated_40: -2551551358493316357
+      sprite_HTAttack_Updated_41: -4519843214346489818
+      sprite_HTAttack_Updated_42: -4420700105856076219
+      sprite_HTAttack_Updated_43: -7246779550366068950
+      sprite_HTAttack_Updated_5: 4900292854130940738
+      sprite_HTAttack_Updated_6: -1779184246832262256
+      sprite_HTAttack_Updated_7: 1340050588652513041
+      sprite_HTAttack_Updated_8: -2076808414671386467
+      sprite_HTAttack_Updated_9: -9110570429602295918
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

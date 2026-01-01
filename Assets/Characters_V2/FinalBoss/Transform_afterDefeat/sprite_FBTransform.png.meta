@@ -1,0 +1,494 @@
+fileFormatVersion: 2
+guid: 928f13bc5a421b14ea1e7139ce24d27b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8456611703512370806
+    second: sprite_FBTransform_0
+  - first:
+      213: 6307658913017682404
+    second: sprite_FBTransform_1
+  - first:
+      213: -5179425814293662512
+    second: sprite_FBTransform_2
+  - first:
+      213: -5131838924669999538
+    second: sprite_FBTransform_3
+  - first:
+      213: 3647659150566417878
+    second: sprite_FBTransform_4
+  - first:
+      213: 8374196032308645698
+    second: sprite_FBTransform_5
+  - first:
+      213: -4729304013030158337
+    second: sprite_FBTransform_6
+  - first:
+      213: 3939735412017188646
+    second: sprite_FBTransform_7
+  - first:
+      213: 1070943237991933310
+    second: sprite_FBTransform_8
+  - first:
+      213: 8104935112079596377
+    second: sprite_FBTransform_9
+  - first:
+      213: -6632373959431980867
+    second: sprite_FBTransform_10
+  - first:
+      213: -2083853774318019651
+    second: sprite_FBTransform_11
+  - first:
+      213: -2370102565229646075
+    second: sprite_FBTransform_12
+  - first:
+      213: 9046895676247774729
+    second: sprite_FBTransform_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sprite_FBTransform_0
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 439
+        width: 914
+        height: 807
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67e044f0a8beb5570800000000000000
+      internalID: 8456611703512370806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_FBTransform_1
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 323
+        width: 346
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e9debaac5e498750800000000000000
+      internalID: 6307658913017682404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_FBTransform_2
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 508
+        width: 425
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d4b986e9abfe18b0800000000000000
+      internalID: -5179425814293662512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_FBTransform_3
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 295
+        width: 853
+        height: 904
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e46a58a00bb08c8b0800000000000000
+      internalID: -5131838924669999538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_FBTransform_4
+      rect:
+        serializedVersion: 2
+        x: 3262
+        y: 291
+        width: 339
+        height: 418
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d5e63bdba61f9230800000000000000
+      internalID: 3647659150566417878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_FBTransform_5
+      rect:
+        serializedVersion: 2
+        x: 3361
+        y: 230
+        width: 871
+        height: 949
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24f0e394cee173470800000000000000
+      internalID: 8374196032308645698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_FBTransform_6
+      rect:
+        serializedVersion: 2
+        x: 4713
+        y: 298
+        width: 337
+        height: 411
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fff028c9e032e5eb0800000000000000
+      internalID: -4729304013030158337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_FBTransform_7
+      rect:
+        serializedVersion: 2
+        x: 4810
+        y: 290
+        width: 764
+        height: 717
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62fcf4ecb70cca630800000000000000
+      internalID: 3939735412017188646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_FBTransform_8
+      rect:
+        serializedVersion: 2
+        x: 6227
+        y: 304
+        width: 697
+        height: 580
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e75ad1b6331ccde00800000000000000
+      internalID: 1070943237991933310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_FBTransform_9
+      rect:
+        serializedVersion: 2
+        x: 7736
+        y: 299
+        width: 669
+        height: 536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95b581bea838a7070800000000000000
+      internalID: 8104935112079596377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_FBTransform_10
+      rect:
+        serializedVersion: 2
+        x: 9232
+        y: 298
+        width: 562
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db87182160315f3a0800000000000000
+      internalID: -6632373959431980867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_FBTransform_11
+      rect:
+        serializedVersion: 2
+        x: 10766
+        y: 289
+        width: 382
+        height: 416
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbbdae1780aa413e0800000000000000
+      internalID: -2083853774318019651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_FBTransform_12
+      rect:
+        serializedVersion: 2
+        x: 12215
+        y: 289
+        width: 382
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50fae363644bb1fd0800000000000000
+      internalID: -2370102565229646075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_FBTransform_13
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 303
+        width: 217
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90614ce5fa70d8d70800000000000000
+      internalID: 9046895676247774729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sprite_FBTransform_0: 8456611703512370806
+      sprite_FBTransform_1: 6307658913017682404
+      sprite_FBTransform_10: -6632373959431980867
+      sprite_FBTransform_11: -2083853774318019651
+      sprite_FBTransform_12: -2370102565229646075
+      sprite_FBTransform_13: 9046895676247774729
+      sprite_FBTransform_2: -5179425814293662512
+      sprite_FBTransform_3: -5131838924669999538
+      sprite_FBTransform_4: 3647659150566417878
+      sprite_FBTransform_5: 8374196032308645698
+      sprite_FBTransform_6: -4729304013030158337
+      sprite_FBTransform_7: 3939735412017188646
+      sprite_FBTransform_8: 1070943237991933310
+      sprite_FBTransform_9: 8104935112079596377
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

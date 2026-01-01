@@ -1,0 +1,598 @@
+fileFormatVersion: 2
+guid: a2b5a62daa25f4649ba0449be08b84a9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7599151237951690967
+    second: sprite_FBAttack_0
+  - first:
+      213: 6823615518542610554
+    second: sprite_FBAttack_1
+  - first:
+      213: -5379307516197001246
+    second: sprite_FBAttack_2
+  - first:
+      213: -3144672326354656391
+    second: sprite_FBAttack_3
+  - first:
+      213: 5436422187725764213
+    second: sprite_FBAttack_4
+  - first:
+      213: -7407529785024489118
+    second: sprite_FBAttack_5
+  - first:
+      213: -8712956515146543774
+    second: sprite_FBAttack_6
+  - first:
+      213: -5958459033154321498
+    second: sprite_FBAttack_7
+  - first:
+      213: 4694849850619054645
+    second: sprite_FBAttack_8
+  - first:
+      213: 3164812355308010996
+    second: sprite_FBAttack_9
+  - first:
+      213: -822224758818084812
+    second: sprite_FBAttack_10
+  - first:
+      213: -2040134020318521344
+    second: sprite_FBAttack_11
+  - first:
+      213: -3309620083470959710
+    second: sprite_FBAttack_12
+  - first:
+      213: 3509822523742498587
+    second: sprite_FBAttack_13
+  - first:
+      213: 7472878185830287386
+    second: sprite_FBAttack_14
+  - first:
+      213: -838108722692587176
+    second: sprite_FBAttack_15
+  - first:
+      213: -2501979650577274030
+    second: sprite_FBAttack_16
+  - first:
+      213: 7721704448266411115
+    second: sprite_FBAttack_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sprite_FBAttack_0
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 439
+        width: 914
+        height: 807
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d89494f9cb957960800000000000000
+      internalID: 7599151237951690967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_FBAttack_1
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 323
+        width: 346
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a70439a392a52be50800000000000000
+      internalID: 6823615518542610554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_FBAttack_2
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 303
+        width: 217
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e72d77905cd855b0800000000000000
+      internalID: -5379307516197001246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_FBAttack_3
+      rect:
+        serializedVersion: 2
+        x: 1887
+        y: 299
+        width: 959
+        height: 940
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97321ac2e21eb54d0800000000000000
+      internalID: -3144672326354656391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_FBAttack_4
+      rect:
+        serializedVersion: 2
+        x: 3412
+        y: 301
+        width: 919
+        height: 966
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57632742d2d027b40800000000000000
+      internalID: 5436422187725764213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_FBAttack_5
+      rect:
+        serializedVersion: 2
+        x: 4867
+        y: 452
+        width: 780
+        height: 907
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2695d7448ea233990800000000000000
+      internalID: -7407529785024489118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_FBAttack_6
+      rect:
+        serializedVersion: 2
+        x: 4939
+        y: 326
+        width: 328
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26dc343763c551780800000000000000
+      internalID: -8712956515146543774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_FBAttack_7
+      rect:
+        serializedVersion: 2
+        x: 5329
+        y: 303
+        width: 172
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a38e10241d4f4da0800000000000000
+      internalID: -5958459033154321498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_FBAttack_8
+      rect:
+        serializedVersion: 2
+        x: 6153
+        y: 452
+        width: 943
+        height: 762
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53ac1f39015772140800000000000000
+      internalID: 4694849850619054645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_FBAttack_9
+      rect:
+        serializedVersion: 2
+        x: 6388
+        y: 326
+        width: 328
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fdb6eab11cabeb20800000000000000
+      internalID: 3164812355308010996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_FBAttack_10
+      rect:
+        serializedVersion: 2
+        x: 6778
+        y: 303
+        width: 172
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 438ed1d20fed694f0800000000000000
+      internalID: -822224758818084812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_FBAttack_11
+      rect:
+        serializedVersion: 2
+        x: 7575
+        y: 452
+        width: 970
+        height: 762
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00899b8eaecffa3e0800000000000000
+      internalID: -2040134020318521344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_FBAttack_12
+      rect:
+        serializedVersion: 2
+        x: 7837
+        y: 326
+        width: 328
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2abf637b11ed112d0800000000000000
+      internalID: -3309620083470959710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_FBAttack_13
+      rect:
+        serializedVersion: 2
+        x: 8227
+        y: 303
+        width: 172
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1f26505df465b030800000000000000
+      internalID: 3509822523742498587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_FBAttack_14
+      rect:
+        serializedVersion: 2
+        x: 9132
+        y: 299
+        width: 959
+        height: 940
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a180e24fd1ff4b760800000000000000
+      internalID: 7472878185830287386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_FBAttack_15
+      rect:
+        serializedVersion: 2
+        x: 10414
+        y: 439
+        width: 914
+        height: 807
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85180c4ae807e54f0800000000000000
+      internalID: -838108722692587176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_FBAttack_16
+      rect:
+        serializedVersion: 2
+        x: 10727
+        y: 323
+        width: 346
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25be51c83ce274dd0800000000000000
+      internalID: -2501979650577274030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_FBAttack_17
+      rect:
+        serializedVersion: 2
+        x: 11102
+        y: 303
+        width: 217
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6c197bc841092b60800000000000000
+      internalID: 7721704448266411115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sprite_FBAttack_0: 7599151237951690967
+      sprite_FBAttack_1: 6823615518542610554
+      sprite_FBAttack_10: -822224758818084812
+      sprite_FBAttack_11: -2040134020318521344
+      sprite_FBAttack_12: -3309620083470959710
+      sprite_FBAttack_13: 3509822523742498587
+      sprite_FBAttack_14: 7472878185830287386
+      sprite_FBAttack_15: -838108722692587176
+      sprite_FBAttack_16: -2501979650577274030
+      sprite_FBAttack_17: 7721704448266411115
+      sprite_FBAttack_2: -5379307516197001246
+      sprite_FBAttack_3: -3144672326354656391
+      sprite_FBAttack_4: 5436422187725764213
+      sprite_FBAttack_5: -7407529785024489118
+      sprite_FBAttack_6: -8712956515146543774
+      sprite_FBAttack_7: -5958459033154321498
+      sprite_FBAttack_8: 4694849850619054645
+      sprite_FBAttack_9: 3164812355308010996
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
