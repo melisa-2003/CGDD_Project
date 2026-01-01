@@ -31,8 +31,7 @@ public class IntroCutsceneController : MonoBehaviour
     public AudioSource introBGM;
     public float bgmFadeDuration = 2f;
     public float bgmTargetVolume = 0.6f;
-
-    private bool transitioned = false;
+    
     private Coroutine timelineCoroutine;
 
     void Start()
@@ -51,16 +50,12 @@ public class IntroCutsceneController : MonoBehaviour
 
     void Update()
     {
-        // Tap to skip during video OR timeline
-        if (( !videoTransitioned && videoPlayer.isPlaying ) || ( !timelineTransitioned && timelineDirector.state == PlayState.Playing ))
+        if (Input.touchCount > 0 || Input.anyKeyDown)
         {
-            if (Input.touchCount > 0 || Input.anyKeyDown)
-            {
-                SkipEverything();
-            }
+            SkipEverything();
         }
-
     }
+
     void OnVideoFinished(VideoPlayer vp)
     {
         if (videoTransitioned) return;
@@ -92,6 +87,8 @@ public class IntroCutsceneController : MonoBehaviour
         if (timelineCoroutine != null)
             StopCoroutine(timelineCoroutine);
 
+        // Fade out BGM before fading to next scene
+        StartCoroutine(FadeOutBGM());  
         // Immediately fade and load next scene
         StartCoroutine(FadeAndLoadNext());
     }
@@ -172,6 +169,24 @@ public class IntroCutsceneController : MonoBehaviour
         }
         introBGM.volume = bgmTargetVolume;
     }
+
+    IEnumerator FadeOutBGM()
+    {
+        if (introBGM == null) yield break;
+
+        float startVolume = introBGM.volume;
+        float t = 0f;
+
+        while (t < bgmFadeDuration)
+        {
+            t += Time.deltaTime;
+            introBGM.volume = Mathf.Lerp(startVolume, 0f, t / bgmFadeDuration);
+            yield return null;
+        }
+        introBGM.volume = 0f;
+        introBGM.Stop();
+    }
+
 
 
     IEnumerator FadeAndLoadNext()
