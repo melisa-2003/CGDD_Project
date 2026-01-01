@@ -1,0 +1,1482 @@
+fileFormatVersion: 2
+guid: 2da654bba85210c4a9bbf4de27e5fc0d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2036077153326194942
+    second: sprite_SKAttack_0
+  - first:
+      213: 8787507678364608755
+    second: sprite_SKAttack_1
+  - first:
+      213: -6293304042800974867
+    second: sprite_SKAttack_2
+  - first:
+      213: 4886304890177417524
+    second: sprite_SKAttack_3
+  - first:
+      213: 6681891494516462639
+    second: sprite_SKAttack_4
+  - first:
+      213: 5795530385288734646
+    second: sprite_SKAttack_5
+  - first:
+      213: -3526334000985297846
+    second: sprite_SKAttack_6
+  - first:
+      213: -7009399564106281873
+    second: sprite_SKAttack_7
+  - first:
+      213: 4370645494407797424
+    second: sprite_SKAttack_8
+  - first:
+      213: 1089153399401023998
+    second: sprite_SKAttack_9
+  - first:
+      213: -7746269374050892058
+    second: sprite_SKAttack_10
+  - first:
+      213: -2316508662648421676
+    second: sprite_SKAttack_11
+  - first:
+      213: 502794766686786852
+    second: sprite_SKAttack_12
+  - first:
+      213: 6531706505818627361
+    second: sprite_SKAttack_13
+  - first:
+      213: -1092344889754527746
+    second: sprite_SKAttack_14
+  - first:
+      213: -5564289906770828604
+    second: sprite_SKAttack_15
+  - first:
+      213: 1966372530057394602
+    second: sprite_SKAttack_16
+  - first:
+      213: 8974959383920280538
+    second: sprite_SKAttack_17
+  - first:
+      213: 2662903847348904361
+    second: sprite_SKAttack_18
+  - first:
+      213: 6384354975698617881
+    second: sprite_SKAttack_19
+  - first:
+      213: 7326445026616724604
+    second: sprite_SKAttack_20
+  - first:
+      213: 2827726411958127798
+    second: sprite_SKAttack_21
+  - first:
+      213: -8304910594513402842
+    second: sprite_SKAttack_22
+  - first:
+      213: -7346503904049898255
+    second: sprite_SKAttack_23
+  - first:
+      213: -8866935606858248987
+    second: sprite_SKAttack_24
+  - first:
+      213: -7224237159135092585
+    second: sprite_SKAttack_25
+  - first:
+      213: 1349516432486376101
+    second: sprite_SKAttack_26
+  - first:
+      213: -8152658628597768863
+    second: sprite_SKAttack_27
+  - first:
+      213: 5616392933516010298
+    second: sprite_SKAttack_28
+  - first:
+      213: -2090921382429060722
+    second: sprite_SKAttack_29
+  - first:
+      213: -988963961031056813
+    second: sprite_SKAttack_30
+  - first:
+      213: -775117724130191384
+    second: sprite_SKAttack_31
+  - first:
+      213: 7262547322092779025
+    second: sprite_SKAttack_32
+  - first:
+      213: 4531384279408981095
+    second: sprite_SKAttack_33
+  - first:
+      213: -3596619953567026861
+    second: sprite_SKAttack_34
+  - first:
+      213: -4428248416533939986
+    second: sprite_SKAttack_35
+  - first:
+      213: -53969497528882295
+    second: sprite_SKAttack_36
+  - first:
+      213: 8360974136699829538
+    second: sprite_SKAttack_37
+  - first:
+      213: -4239917750416205406
+    second: sprite_SKAttack_38
+  - first:
+      213: 8799422791194670231
+    second: sprite_SKAttack_39
+  - first:
+      213: -1996159496646907257
+    second: sprite_SKAttack_40
+  - first:
+      213: -6856737157687747148
+    second: sprite_SKAttack_41
+  - first:
+      213: -5399083670058413861
+    second: sprite_SKAttack_42
+  - first:
+      213: -4221914177591336887
+    second: sprite_SKAttack_43
+  - first:
+      213: -5762373490456955302
+    second: sprite_SKAttack_44
+  - first:
+      213: -6003372618174257593
+    second: sprite_SKAttack_45
+  - first:
+      213: 1843864592011911372
+    second: sprite_SKAttack_46
+  - first:
+      213: 1463077955562465165
+    second: sprite_SKAttack_47
+  - first:
+      213: 3482902275296220752
+    second: sprite_SKAttack_48
+  - first:
+      213: -9212798487567471616
+    second: sprite_SKAttack_49
+  - first:
+      213: 5035287627331455935
+    second: sprite_SKAttack_50
+  - first:
+      213: -8346593564922673169
+    second: sprite_SKAttack_51
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sprite_SKAttack_0
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 831
+        width: 512
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef0eb432269914c10800000000000000
+      internalID: 2036077153326194942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_SKAttack_1
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 535
+        width: 424
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f8a0fddcaf73f970800000000000000
+      internalID: 8787507678364608755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_SKAttack_2
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 812
+        width: 47
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de371510151b9a8a0800000000000000
+      internalID: -6293304042800974867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_SKAttack_3
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 234
+        width: 626
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 431774ba864afc340800000000000000
+      internalID: 4886304890177417524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_SKAttack_4
+      rect:
+        serializedVersion: 2
+        x: 2336
+        y: 563
+        width: 429
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f249b5e79e8dabc50800000000000000
+      internalID: 6681891494516462639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_SKAttack_5
+      rect:
+        serializedVersion: 2
+        x: 2716
+        y: 186
+        width: 446
+        height: 725
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b72e1ced2cdd6050800000000000000
+      internalID: 5795530385288734646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_SKAttack_6
+      rect:
+        serializedVersion: 2
+        x: 3428
+        y: 271
+        width: 813
+        height: 635
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4ca3efc8e1ff0fc0800000000000000
+      internalID: -3526334000985297846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_SKAttack_7
+      rect:
+        serializedVersion: 2
+        x: 4623
+        y: 183
+        width: 685
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6ccaacdb3c99be90800000000000000
+      internalID: -7009399564106281873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_SKAttack_8
+      rect:
+        serializedVersion: 2
+        x: 5616
+        y: 271
+        width: 813
+        height: 635
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ba9655abe6a7ac30800000000000000
+      internalID: 4370645494407797424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_SKAttack_9
+      rect:
+        serializedVersion: 2
+        x: 6712
+        y: 563
+        width: 429
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef905350f337d1f00800000000000000
+      internalID: 1089153399401023998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_SKAttack_10
+      rect:
+        serializedVersion: 2
+        x: 7092
+        y: 186
+        width: 446
+        height: 725
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e68539bb09bf7490800000000000000
+      internalID: -7746269374050892058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_SKAttack_11
+      rect:
+        serializedVersion: 2
+        x: 8028
+        y: 234
+        width: 626
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d2c9bb05ab1adfd0800000000000000
+      internalID: -2316508662648421676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_SKAttack_12
+      rect:
+        serializedVersion: 2
+        x: 9155
+        y: 831
+        width: 512
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4259a472d294af600800000000000000
+      internalID: 502794766686786852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_SKAttack_13
+      rect:
+        serializedVersion: 2
+        x: 9253
+        y: 535
+        width: 424
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12d5d68e57845aa50800000000000000
+      internalID: 6531706505818627361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_SKAttack_14
+      rect:
+        serializedVersion: 2
+        x: 9566
+        y: 812
+        width: 47
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef7d7f93c1637d0f0800000000000000
+      internalID: -1092344889754527746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_SKAttack_15
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 479
+        width: 99
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c222a78fcba7c2b0800000000000000
+      internalID: -5564289906770828604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_SKAttack_16
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 253
+        width: 362
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa93826d565f94b10800000000000000
+      internalID: 1966372530057394602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_SKAttack_17
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 519
+        width: 81
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad3802022067d8c70800000000000000
+      internalID: 8974959383920280538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_SKAttack_18
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 464
+        width: 100
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a1a044c0f884f420800000000000000
+      internalID: 2662903847348904361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_SKAttack_19
+      rect:
+        serializedVersion: 2
+        x: 9303
+        y: 479
+        width: 99
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 916838e4609c99850800000000000000
+      internalID: 6384354975698617881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_SKAttack_20
+      rect:
+        serializedVersion: 2
+        x: 9351
+        y: 253
+        width: 362
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7ccaed3fe2cca560800000000000000
+      internalID: 7326445026616724604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_SKAttack_21
+      rect:
+        serializedVersion: 2
+        x: 9558
+        y: 519
+        width: 81
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bc01c2903a1e3720800000000000000
+      internalID: 2827726411958127798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_SKAttack_22
+      rect:
+        serializedVersion: 2
+        x: 9571
+        y: 464
+        width: 100
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62486aac0d70fbc80800000000000000
+      internalID: -8304910594513402842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_SKAttack_23
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 370
+        width: 103
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fcd51a6f99fb0a90800000000000000
+      internalID: -7346503904049898255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_SKAttack_24
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 448
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ec83fa6b0152f480800000000000000
+      internalID: -8866935606858248987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_SKAttack_25
+      rect:
+        serializedVersion: 2
+        x: 9198
+        y: 370
+        width: 103
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7906394549a5ebb90800000000000000
+      internalID: -7224237159135092585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_SKAttack_26
+      rect:
+        serializedVersion: 2
+        x: 9268
+        y: 448
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a227e89b027ab210800000000000000
+      internalID: 1349516432486376101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_SKAttack_27
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 227
+        width: 125
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16d18630c20fbde80800000000000000
+      internalID: -8152658628597768863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_SKAttack_28
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 371
+        width: 94
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a336c39bd9f61fd40800000000000000
+      internalID: 5616392933516010298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_SKAttack_29
+      rect:
+        serializedVersion: 2
+        x: 9318
+        y: 227
+        width: 125
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e811c03b41e8bf2e0800000000000000
+      internalID: -2090921382429060722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_SKAttack_30
+      rect:
+        serializedVersion: 2
+        x: 9325
+        y: 371
+        width: 94
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 352a417648e7642f0800000000000000
+      internalID: -988963961031056813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_SKAttack_31
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 182
+        width: 134
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e75c12698a3e35f0800000000000000
+      internalID: -775117724130191384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_SKAttack_32
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 202
+        width: 171
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 116fdc19f40c9c460800000000000000
+      internalID: 7262547322092779025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_SKAttack_33
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 147
+        width: 129
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76436fa6ef5b2ee30800000000000000
+      internalID: 4531384279408981095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_SKAttack_34
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 180
+        width: 138
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3513e8b353d361ec0800000000000000
+      internalID: -3596619953567026861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_SKAttack_35
+      rect:
+        serializedVersion: 2
+        x: 1842
+        y: 209
+        width: 161
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee8fe4be683bb82c0800000000000000
+      internalID: -4428248416533939986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_SKAttack_36
+      rect:
+        serializedVersion: 2
+        x: 1873
+        y: 146
+        width: 129
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98ba5172703404ff0800000000000000
+      internalID: -53969497528882295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_SKAttack_37
+      rect:
+        serializedVersion: 2
+        x: 2966
+        y: 152
+        width: 115
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22db832dda5280470800000000000000
+      internalID: 8360974136699829538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_SKAttack_38
+      rect:
+        serializedVersion: 2
+        x: 3807
+        y: 181
+        width: 163
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a991912549c825c0800000000000000
+      internalID: -4239917750416205406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_SKAttack_39
+      rect:
+        serializedVersion: 2
+        x: 4018
+        y: 204
+        width: 171
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79472a14864dd1a70800000000000000
+      internalID: 8799422791194670231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_SKAttack_40
+      rect:
+        serializedVersion: 2
+        x: 4059
+        y: 146
+        width: 130
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78aa65f83873c44e0800000000000000
+      internalID: -1996159496646907257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_SKAttack_41
+      rect:
+        serializedVersion: 2
+        x: 5154
+        y: 145
+        width: 124
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bddcc532e9f7d0a0800000000000000
+      internalID: -6856737157687747148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_SKAttack_42
+      rect:
+        serializedVersion: 2
+        x: 5995
+        y: 181
+        width: 163
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd05e85f10a9215b0800000000000000
+      internalID: -5399083670058413861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_SKAttack_43
+      rect:
+        serializedVersion: 2
+        x: 6206
+        y: 204
+        width: 171
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 940ab749c6fb865c0800000000000000
+      internalID: -4221914177591336887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_SKAttack_44
+      rect:
+        serializedVersion: 2
+        x: 6247
+        y: 146
+        width: 130
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a567f2e37dfe700b0800000000000000
+      internalID: -5762373490456955302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_SKAttack_45
+      rect:
+        serializedVersion: 2
+        x: 7342
+        y: 152
+        width: 115
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 746aa67396cbfaca0800000000000000
+      internalID: -6003372618174257593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_SKAttack_46
+      rect:
+        serializedVersion: 2
+        x: 8185
+        y: 180
+        width: 138
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc06ac4c319b69910800000000000000
+      internalID: 1843864592011911372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_SKAttack_47
+      rect:
+        serializedVersion: 2
+        x: 8406
+        y: 209
+        width: 161
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d87610c16a5ed4410800000000000000
+      internalID: 1463077955562465165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_SKAttack_48
+      rect:
+        serializedVersion: 2
+        x: 8437
+        y: 146
+        width: 129
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0565e6a8a21c55030800000000000000
+      internalID: 3482902275296220752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_SKAttack_49
+      rect:
+        serializedVersion: 2
+        x: 9278
+        y: 182
+        width: 134
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00ce8494690952080800000000000000
+      internalID: -9212798487567471616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_SKAttack_50
+      rect:
+        serializedVersion: 2
+        x: 9475
+        y: 202
+        width: 171
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbbc2014b6fe0e540800000000000000
+      internalID: 5035287627331455935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_SKAttack_51
+      rect:
+        serializedVersion: 2
+        x: 9528
+        y: 147
+        width: 129
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe70936ff51fa2c80800000000000000
+      internalID: -8346593564922673169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sprite_SKAttack_0: 2036077153326194942
+      sprite_SKAttack_1: 8787507678364608755
+      sprite_SKAttack_10: -7746269374050892058
+      sprite_SKAttack_11: -2316508662648421676
+      sprite_SKAttack_12: 502794766686786852
+      sprite_SKAttack_13: 6531706505818627361
+      sprite_SKAttack_14: -1092344889754527746
+      sprite_SKAttack_15: -5564289906770828604
+      sprite_SKAttack_16: 1966372530057394602
+      sprite_SKAttack_17: 8974959383920280538
+      sprite_SKAttack_18: 2662903847348904361
+      sprite_SKAttack_19: 6384354975698617881
+      sprite_SKAttack_2: -6293304042800974867
+      sprite_SKAttack_20: 7326445026616724604
+      sprite_SKAttack_21: 2827726411958127798
+      sprite_SKAttack_22: -8304910594513402842
+      sprite_SKAttack_23: -7346503904049898255
+      sprite_SKAttack_24: -8866935606858248987
+      sprite_SKAttack_25: -7224237159135092585
+      sprite_SKAttack_26: 1349516432486376101
+      sprite_SKAttack_27: -8152658628597768863
+      sprite_SKAttack_28: 5616392933516010298
+      sprite_SKAttack_29: -2090921382429060722
+      sprite_SKAttack_3: 4886304890177417524
+      sprite_SKAttack_30: -988963961031056813
+      sprite_SKAttack_31: -775117724130191384
+      sprite_SKAttack_32: 7262547322092779025
+      sprite_SKAttack_33: 4531384279408981095
+      sprite_SKAttack_34: -3596619953567026861
+      sprite_SKAttack_35: -4428248416533939986
+      sprite_SKAttack_36: -53969497528882295
+      sprite_SKAttack_37: 8360974136699829538
+      sprite_SKAttack_38: -4239917750416205406
+      sprite_SKAttack_39: 8799422791194670231
+      sprite_SKAttack_4: 6681891494516462639
+      sprite_SKAttack_40: -1996159496646907257
+      sprite_SKAttack_41: -6856737157687747148
+      sprite_SKAttack_42: -5399083670058413861
+      sprite_SKAttack_43: -4221914177591336887
+      sprite_SKAttack_44: -5762373490456955302
+      sprite_SKAttack_45: -6003372618174257593
+      sprite_SKAttack_46: 1843864592011911372
+      sprite_SKAttack_47: 1463077955562465165
+      sprite_SKAttack_48: 3482902275296220752
+      sprite_SKAttack_49: -9212798487567471616
+      sprite_SKAttack_5: 5795530385288734646
+      sprite_SKAttack_50: 5035287627331455935
+      sprite_SKAttack_51: -8346593564922673169
+      sprite_SKAttack_6: -3526334000985297846
+      sprite_SKAttack_7: -7009399564106281873
+      sprite_SKAttack_8: 4370645494407797424
+      sprite_SKAttack_9: 1089153399401023998
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
