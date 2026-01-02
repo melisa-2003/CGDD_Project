@@ -5,99 +5,107 @@ using System.Collections;
 
 public class DialogueManager : MonoBehaviour
 {
-    [Header("Dialogue UI")]
+    [Header("UI Elements")]
     public GameObject dialoguePanel;
     public TMP_Text nameText;
     public TMP_Text dialogueText;
     public Image portraitImage;
+    public Button closeButton;
 
-    [Header("Buttons")]
-    public Button choiceButton;     // Yes
-    public Button closeButton;      // Close
-
-    [Header("Dialogue Data")]
-    public Sprite hangTuahPortrait;
+    [Header("Reward Settings")]
     public RewardPopup rewardPopup;
-    public Sprite courageFragmentSprite;
 
-    private string[] hangTuahLines =
-    {
-        "Stranger, this light… belongs to me.",
-        "Courage is not just fighting — it is choosing to step forward.",
-        "Will you keep going?"
-    };
+    private DialogueLine[] currentDialogueLines;
+    private string currentLegendName;
+    private Sprite currentLegendPortrait;
+    private int lineIndex;
 
-    private int index = 0;
-    
+    // Reward for this legend
+    private Sprite currentRewardSprite;
+    private string currentRewardText;
 
     void Start()
     {
         dialoguePanel.SetActive(false);
-        choiceButton.gameObject.SetActive(false);
         closeButton.onClick.AddListener(CloseDialogue);
-
-        choiceButton.onClick.AddListener(PlayerSaysYes);
     }
 
-    public void StartHangTuahDialogue()
+    // Start dialogue for a specific legend
+    public void StartDialogue(
+        string legendName,
+        Sprite legendPortrait,
+        DialogueLine[] lines,
+        Sprite legendRewardSprite,
+        string legendRewardText
+    )
     {
-        index = 0;
+        currentLegendName = legendName;
+        currentLegendPortrait = legendPortrait;
+        currentDialogueLines = lines;
+        lineIndex = 0;
+
         dialoguePanel.SetActive(true);
-        nameText.text = "Hang Tuah (Pure Form)";
-        portraitImage.sprite = hangTuahPortrait;
+        nameText.text = currentLegendName;
+        portraitImage.sprite = currentLegendPortrait;
 
-        StartCoroutine(AutoRunDialogue());
+        // Assign this legend's reward
+        currentRewardSprite = legendRewardSprite;
+        currentRewardText = legendRewardText;
+
+        ShowLine();
     }
 
-    // Auto-run dialogue line by line
-    private IEnumerator AutoRunDialogue()
+    void ShowLine()
     {
-        while (index < hangTuahLines.Length)
+        StopAllCoroutines(); // 🔥 VERY IMPORTANT
+
+        DialogueLine line = currentDialogueLines[lineIndex];
+        dialogueText.text = line.text;
+
+        if (line.portrait != null)
+            portraitImage.sprite = line.portrait;
+
+        StartCoroutine(AutoNextLine(2f));
+    }
+
+
+    IEnumerator AutoNextLine(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        NextLine();
+    }
+
+    public void NextLine()
+{
+    lineIndex++;
+
+    if (lineIndex < currentDialogueLines.Length)
+    {
+        ShowLine();
+    }
+    else
+    {
+        if (currentRewardSprite != null)
         {
-            dialogueText.text = hangTuahLines[index];
-
-            // If this is the choice line, pause and wait for player input
-            if (index == hangTuahLines.Length - 1)
-            {
-                choiceButton.gameObject.SetActive(true);
-                
-                yield break;  // stop coroutine until player chooses Yes
-            }
-
-            index++;
-            yield return new WaitForSeconds(3f); // wait 3 seconds between lines
+            rewardPopup.ShowReward(currentRewardSprite, currentRewardText);
         }
 
-        // After last line auto-complete
-        CloseDialogue();
+        StartCoroutine(CloseDialogueDelayed(0.1f));
     }
+}
 
-    // Called when player presses Yes
-    private void PlayerSaysYes()
+    public void CloseDialogue()
     {
-        choiceButton.gameObject.SetActive(false);
-
-        // Show final message
-        dialogueText.text =
-            "When fear comes, and you still move forward… That is courage.\n" +
-            "I grant you the Fragment of Courage. Go on — more truths await you.";
-
-        // Show reward
-        rewardPopup.ShowReward(courageFragmentSprite, "Courage Fragment +1");
-
-        // Optional: auto-close panel after a delay
-        StartCoroutine(AutoCloseAfterSeconds(4f));
-    }
-
-    private IEnumerator AutoCloseAfterSeconds(float seconds)
-    {
-        yield return new WaitForSeconds(seconds);
-        CloseDialogue();
-    }
-
-    private void CloseDialogue()
-    {
-        dialoguePanel.SetActive(false);
         StopAllCoroutines();
+        lineIndex = 0;
+        dialoguePanel.SetActive(false);
     }
+
+IEnumerator CloseDialogueDelayed(float delay)
+{
+    yield return new WaitForSeconds(delay);
+    CloseDialogue();
+}
+
+
 }

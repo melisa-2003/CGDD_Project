@@ -2,6 +2,16 @@ using UnityEngine;
 
 public class LegendNPC : MonoBehaviour
 {
+    [Header("Legend Info")]
+    public string legendName = "Legend Name";   
+    public Sprite legendPortrait;               
+    public DialogueLine[] dialogueLines;        
+
+    [Header("Reward (given after dialogue ends)")]
+    public Sprite rewardSprite;      // Fragment or item for this legend
+    public string rewardText = "+1 Fragment";
+
+    [Header("References")]
     public GameObject cautionSign;
     public DialogueManager dialogueManager;
 
@@ -30,11 +40,18 @@ public class LegendNPC : MonoBehaviour
         }
     }
 
-    void OnMouseDown()   // Mobile tap works if NPC has collider
+    void OnMouseDown()
     {
         if (playerInRange)
         {
-            dialogueManager.StartHangTuahDialogue();
+            // Pass this NPC's reward data to DialogueManager
+            dialogueManager.StartDialogue(
+                legendName, 
+                legendPortrait, 
+                dialogueLines,
+                rewardSprite,
+                rewardText
+            );
         }
     }
 }

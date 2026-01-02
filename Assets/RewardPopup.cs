@@ -5,38 +5,28 @@ using System.Collections;
 
 public class RewardPopup : MonoBehaviour
 {
-    public GameObject panel;
-    public Image rewardIcon;
-    public TMP_Text rewardText;
-
-    public float duration = 2f;
+    public GameObject panel;      // Reward panel UI
+    public Image rewardIcon;      // Icon image
+    public TMP_Text rewardText;   // Reward description
+    public float duration = 2f;   // How long to show
 
     private Coroutine hideCoroutine;
 
     void Start()
     {
-        panel.SetActive(false);
+        panel.SetActive(false);   // hide at start
     }
 
-    /// <summary>
-    /// Show reward popup with icon and text
-    /// </summary>
     public void ShowReward(Sprite icon, string text)
     {
-        // Stop previous hide coroutine if any
         if (hideCoroutine != null)
-        {
             StopCoroutine(hideCoroutine);
-        }
 
-        // Update content
         rewardIcon.sprite = icon;
         rewardText.text = text;
 
-        // Show panel
         panel.SetActive(true);
 
-        // Auto-hide after duration
         hideCoroutine = StartCoroutine(HideAfterSeconds(duration));
     }
 
