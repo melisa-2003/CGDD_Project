@@ -1,13 +1,19 @@
 fileFormatVersion: 2
-guid: bd851a876480dfc4eb7e99b24b3309f2
+guid: ea6592f03152eaa4e938feaaca37c7e1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1174592445906036192
-    second: CR (8)_0
+      213: -3670728277542617576
+    second: ruined village house_0
   - first:
-      213: 3430773108066343935
-    second: CR (8)_1
+      213: -3590263387075766329
+    second: ruined village house_1
+  - first:
+      213: 7616076618128654203
+    second: ruined village house_2
+  - first:
+      213: -2781838518260805875
+    second: ruined village house_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -49,12 +55,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 300
+  spritePixelsToUnits: 50
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -116,45 +122,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CR (8)_0
+      name: ruined village house_0
       rect:
         serializedVersion: 2
-        x: 493
-        y: 243
-        width: 707
-        height: 1020
+        x: 76
+        y: 538
+        width: 370
+        height: 371
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 02ad9e9c46203bfe0800000000000000
-      internalID: -1174592445906036192
+      spriteID: 81e37167414fe0dc0800000000000000
+      internalID: -3670728277542617576
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CR (8)_1
+      name: ruined village house_1
       rect:
         serializedVersion: 2
-        x: 918
-        y: 188
-        width: 170
-        height: 75
+        x: 542
+        y: 538
+        width: 482
+        height: 426
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 44, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c71243b872dc2ec0800000000000000
+      internalID: -3590263387075766329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruined village house_2
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 45
+        width: 442
+        height: 434
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ffbd14bf6fd8c9f20800000000000000
-      internalID: 3430773108066343935
+      spriteID: b7f77bd155db1b960800000000000000
+      internalID: 7616076618128654203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruined village house_3
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 45
+        width: 431
+        height: 425
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0fc0904b9ce469d0800000000000000
+      internalID: -2781838518260805875
       vertices: []
       indices: 
       edges: []
@@ -163,7 +213,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 76ba981884d7f054f913a2441e99df60
     internalID: 0
     vertices: []
     indices: 
@@ -173,8 +223,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      CR (8)_0: -1174592445906036192
-      CR (8)_1: 3430773108066343935
+      ruined village house_0: -3670728277542617576
+      ruined village house_1: -3590263387075766329
+      ruined village house_2: 7616076618128654203
+      ruined village house_3: -2781838518260805875
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

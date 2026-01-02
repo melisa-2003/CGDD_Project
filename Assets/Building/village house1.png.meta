@@ -1,13 +1,19 @@
 fileFormatVersion: 2
-guid: bd851a876480dfc4eb7e99b24b3309f2
+guid: 40e70989c30137f4aa88fe471d386f0e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1174592445906036192
-    second: CR (8)_0
+      213: -6259204750945690615
+    second: village house1_0
   - first:
-      213: 3430773108066343935
-    second: CR (8)_1
+      213: 1182468393066308122
+    second: village house1_1
+  - first:
+      213: 2526425741706303093
+    second: village house1_2
+  - first:
+      213: -5816816413374333532
+    second: village house1_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -49,12 +55,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 300
+  spritePixelsToUnits: 80
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -116,13 +122,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CR (8)_0
+      name: village house1_0
       rect:
         serializedVersion: 2
-        x: 493
-        y: 243
-        width: 707
-        height: 1020
+        x: 47
+        y: 538
+        width: 438
+        height: 432
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 02ad9e9c46203bfe0800000000000000
-      internalID: -1174592445906036192
+      spriteID: 90cd1731176d229a0800000000000000
+      internalID: -6259204750945690615
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CR (8)_1
+      name: village house1_1
       rect:
         serializedVersion: 2
-        x: 918
-        y: 188
-        width: 170
-        height: 75
+        x: 542
+        y: 537
+        width: 434
+        height: 430
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,8 +159,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ffbd14bf6fd8c9f20800000000000000
-      internalID: 3430773108066343935
+      spriteID: a1228de0db8f86010800000000000000
+      internalID: 1182468393066308122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: village house1_2
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 44
+        width: 442
+        height: 435
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5769ec593daaf0320800000000000000
+      internalID: 2526425741706303093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: village house1_3
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 44
+        width: 432
+        height: 436
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ad39257a44864fa0800000000000000
+      internalID: -5816816413374333532
       vertices: []
       indices: 
       edges: []
@@ -163,7 +213,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: d73ecb3a44f33a744959677a2d6c9edc
     internalID: 0
     vertices: []
     indices: 
@@ -173,8 +223,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      CR (8)_0: -1174592445906036192
-      CR (8)_1: 3430773108066343935
+      village house1_0: -6259204750945690615
+      village house1_1: 1182468393066308122
+      village house1_2: 2526425741706303093
+      village house1_3: -5816816413374333532
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
