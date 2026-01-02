@@ -8,7 +8,7 @@ public class LegendNPC : MonoBehaviour
     public DialogueLine[] dialogueLines;        
 
     [Header("Reward (given after dialogue ends)")]
-    public Sprite rewardSprite;      // Fragment or item for this legend
+    public Sprite rewardSprite;      
     public string rewardText = "+1 Fragment";
 
     [Header("References")]
@@ -40,11 +40,10 @@ public class LegendNPC : MonoBehaviour
         }
     }
 
-    void OnMouseDown()
+    public void TriggerDialogue()
     {
         if (playerInRange)
         {
-            // Pass this NPC's reward data to DialogueManager
             dialogueManager.StartDialogue(
                 legendName, 
                 legendPortrait, 
@@ -52,6 +51,35 @@ public class LegendNPC : MonoBehaviour
                 rewardSprite,
                 rewardText
             );
+        }
+    }
+
+    void Update()
+    {
+        // Mobile touch
+        if (playerInRange && Input.touchCount > 0)
+        {
+            Touch touch = Input.GetTouch(0);
+            if (touch.phase == TouchPhase.Began)
+            {
+                Vector3 worldPos = Camera.main.ScreenToWorldPoint(touch.position);
+                Collider2D hit = Physics2D.OverlapPoint(worldPos);
+                if (hit != null && hit.gameObject == gameObject)
+                {
+                    TriggerDialogue();
+                }
+            }
+        }
+
+        // PC mouse click
+        if (playerInRange && Input.GetMouseButtonDown(0))
+        {
+            Vector3 worldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            Collider2D hit = Physics2D.OverlapPoint(worldPos);
+            if (hit != null && hit.gameObject == gameObject)
+            {
+                TriggerDialogue();
+            }
         }
     }
 }

@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 02c510f2bf93eb949a4e8e54d77ebc4e
+guid: 76de5a7a6b1137e47b78d39579c94557
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1679338889935769111
-    second: Wisdom_fragment_0
+      213: 6059799596907309901
+    second: N_0
+  - first:
+      213: -5930386037713520940
+    second: N_1
+  - first:
+      213: 2761076403427423794
+    second: N_2
+  - first:
+      213: 8543937642526432385
+    second: N_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 500
+  spritePixelsToUnits: 80
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -113,13 +122,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Wisdom_fragment_0
+      name: N_0
       rect:
         serializedVersion: 2
-        x: 130
-        y: 585
-        width: 669
-        height: 745
+        x: 192
+        y: 631
+        width: 337
+        height: 279
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +137,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 71ece18a2d53e4710800000000000000
-      internalID: 1679338889935769111
+      spriteID: d4b27bf80abb81450800000000000000
+      internalID: 6059799596907309901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: N_1
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 190
+        width: 333
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d63629b15903bda0800000000000000
+      internalID: -5930386037713520940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: N_2
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 188
+        width: 43
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23631003c50515620800000000000000
+      internalID: 2761076403427423794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: N_3
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 139
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18c50e5a40a229670800000000000000
+      internalID: 8543937642526432385
       vertices: []
       indices: 
       edges: []
@@ -148,7 +223,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Wisdom_fragment_0: 1679338889935769111
+      N_0: 6059799596907309901
+      N_1: -5930386037713520940
+      N_2: 2761076403427423794
+      N_3: 8543937642526432385
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

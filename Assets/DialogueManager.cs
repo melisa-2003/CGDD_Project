@@ -15,6 +15,10 @@ public class DialogueManager : MonoBehaviour
     [Header("Reward Settings")]
     public RewardPopup rewardPopup;
 
+    [Header("Typing Settings")]
+    public float typingSpeed = 0.04f;   // time per character
+    public float lineDelay = 1.2f;      // delay after line fully typed
+
     private DialogueLine[] currentDialogueLines;
     private string currentLegendName;
     private Sprite currentLegendPortrait;
@@ -24,13 +28,19 @@ public class DialogueManager : MonoBehaviour
     private Sprite currentRewardSprite;
     private string currentRewardText;
 
+    private Coroutine typingCoroutine;
+
     void Start()
     {
         dialoguePanel.SetActive(false);
-        closeButton.onClick.AddListener(CloseDialogue);
+
+        if (closeButton != null)
+            closeButton.onClick.AddListener(CloseDialogue);
     }
 
-    // Start dialogue for a specific legend
+    /// <summary>
+    /// Start the dialogue sequence for a legend.
+    /// </summary>
     public void StartDialogue(
         string legendName,
         Sprite legendPortrait,
@@ -48,64 +58,81 @@ public class DialogueManager : MonoBehaviour
         nameText.text = currentLegendName;
         portraitImage.sprite = currentLegendPortrait;
 
-        // Assign this legend's reward
         currentRewardSprite = legendRewardSprite;
         currentRewardText = legendRewardText;
 
         ShowLine();
     }
 
+    /// <summary>
+    /// Show a dialogue line with typewriter effect and auto-next.
+    /// </summary>
     void ShowLine()
     {
-        StopAllCoroutines(); // 🔥 VERY IMPORTANT
+        StopTypingCoroutine();
 
         DialogueLine line = currentDialogueLines[lineIndex];
-        dialogueText.text = line.text;
 
         if (line.portrait != null)
             portraitImage.sprite = line.portrait;
 
-        StartCoroutine(AutoNextLine(2f));
+        typingCoroutine = StartCoroutine(TypeLine(line.text));
     }
 
-
-    IEnumerator AutoNextLine(float delay)
+    IEnumerator TypeLine(string text)
     {
-        yield return new WaitForSeconds(delay);
+        dialogueText.text = "";
+
+        foreach (char c in text)
+        {
+            dialogueText.text += c;
+            yield return new WaitForSeconds(typingSpeed);
+        }
+
+        // Wait a short delay then automatically go to next line
+        yield return new WaitForSeconds(lineDelay);
         NextLine();
     }
 
-    public void NextLine()
-{
-    lineIndex++;
-
-    if (lineIndex < currentDialogueLines.Length)
+    void StopTypingCoroutine()
     {
-        ShowLine();
-    }
-    else
-    {
-        if (currentRewardSprite != null)
+        if (typingCoroutine != null)
         {
-            rewardPopup.ShowReward(currentRewardSprite, currentRewardText);
+            StopCoroutine(typingCoroutine);
+            typingCoroutine = null;
         }
-
-        StartCoroutine(CloseDialogueDelayed(0.1f));
     }
-}
+
+    public void NextLine()
+    {
+        lineIndex++;
+
+        if (lineIndex < currentDialogueLines.Length)
+        {
+            ShowLine();
+        }
+        else
+        {
+            // Dialogue finished, show reward if any
+            if (currentRewardSprite != null)
+            {
+                rewardPopup.ShowReward(currentRewardSprite, currentRewardText);
+            }
+
+            StartCoroutine(CloseDialogueDelayed(0.1f));
+        }
+    }
 
     public void CloseDialogue()
     {
-        StopAllCoroutines();
+        StopTypingCoroutine();
         lineIndex = 0;
         dialoguePanel.SetActive(false);
     }
 
-IEnumerator CloseDialogueDelayed(float delay)
-{
-    yield return new WaitForSeconds(delay);
-    CloseDialogue();
-}
-
-
+    IEnumerator CloseDialogueDelayed(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        CloseDialogue();
+    }
 }

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 02c510f2bf93eb949a4e8e54d77ebc4e
+guid: 6d66b9778278f0e48957fffa8c3dbc76
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1679338889935769111
-    second: Wisdom_fragment_0
+      213: 4250462010752181746
+    second: Broken_brige_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,12 +46,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 500
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -113,23 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Wisdom_fragment_0
+      name: Broken_brige_0
       rect:
         serializedVersion: 2
-        x: 130
-        y: 585
-        width: 669
-        height: 745
+        x: 0
+        y: 0
+        width: 1024
+        height: 1024
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 71ece18a2d53e4710800000000000000
-      internalID: 1679338889935769111
+      spriteID: 2f52d2acdacacfa30800000000000000
+      internalID: 4250462010752181746
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Wisdom_fragment_0: 1679338889935769111
+      Broken_brige_0: 4250462010752181746
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

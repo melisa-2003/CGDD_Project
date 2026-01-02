@@ -6,8 +6,8 @@ public class NPCDialogue : MonoBehaviour
     public GameObject dialogueCanvas;
     public TextMeshProUGUI dialogueText;
 
-    [TextArea]
-    public string message = "The brave guardian will protect us… as long as we believe he's still here. The shadows are getting closer...";
+    [TextArea(3, 5)]
+    public string message;
 
     void Start()
     {

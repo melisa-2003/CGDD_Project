@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 02c510f2bf93eb949a4e8e54d77ebc4e
+guid: 3c2d8c3d6fd32e64b9e65dab24a1e693
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1679338889935769111
-    second: Wisdom_fragment_0
+      213: 8061919959038570487
+    second: river_0
+  - first:
+      213: -7820381653269175936
+    second: river_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,12 +49,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 500
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -113,23 +116,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Wisdom_fragment_0
+      name: river_0
       rect:
         serializedVersion: 2
-        x: 130
-        y: 585
-        width: 669
-        height: 745
+        x: 0
+        y: 0
+        width: 1280
+        height: 731
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 71ece18a2d53e4710800000000000000
-      internalID: 1679338889935769111
+      spriteID: 7ff20262d71b1ef60800000000000000
+      internalID: 8061919959038570487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: river_1
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 716
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 081a8ec025c687390800000000000000
+      internalID: -7820381653269175936
       vertices: []
       indices: 
       edges: []
@@ -148,7 +173,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Wisdom_fragment_0: 1679338889935769111
+      river_0: 8061919959038570487
+      river_1: -7820381653269175936
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
