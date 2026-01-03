@@ -10,7 +10,6 @@ public class Layer1MusicTrigger : MonoBehaviour
     [Header("Volume Settings")]
     public float musicTargetVolume = 0.6f;
     public float birdTargetVolume = 0.2f;
-
     public float fadeSpeed = 0.15f;
 
     void Start()
@@ -21,7 +20,7 @@ public class Layer1MusicTrigger : MonoBehaviour
         }
         else
         {
-            Debug.LogError("AudioSource missing on Layer2_Audio!");
+            Debug.LogError("AudioSource missing on Layer1MusicTrigger!");
         }
     }
 

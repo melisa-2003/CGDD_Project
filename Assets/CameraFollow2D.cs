@@ -1,37 +1,80 @@
 using UnityEngine;
 using UnityEngine.Tilemaps;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(Camera))]
 public class CameraFollow2D : MonoBehaviour
 {
     [Header("Runtime Assigned")]
-    public Transform target;
-    public Tilemap tilemap;
+    public Transform target;        // player to follow
+    public Tilemap tilemap;         // current level tilemap
 
-    [Header("Movement")]
+    [Header("Movement Settings")]
     public float smoothSpeed = 5f;
     public float deadZoneWidth = 2.5f;
 
-    float fixedY;
-    float camHalfWidth;
-    float minX;
-    float maxX;
-
-    float leftBound;
-    float rightBound;
+    private float fixedY;
+    private float camHalfWidth;
+    private float minX, maxX;
+    private float leftBound, rightBound;
 
     void Awake()
     {
-        DontDestroyOnLoad(gameObject);
+        DontDestroyOnLoad(gameObject);       // persist across scenes
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    void OnDestroy()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
     }
 
     void Start()
     {
-        Camera cam = GetComponent<Camera>();
-        camHalfWidth = cam.orthographicSize * cam.aspect;
+        camHalfWidth = GetComponent<Camera>().orthographicSize * GetComponent<Camera>().aspect;
     }
 
-    /// 🔴 每个 Scene 进来都要 call 一次
+    void Update()
+    {
+        // Keep searching for the player if not assigned yet
+        if (target == null)
+        {
+            FindPlayerAndTilemap();
+        }
+    }
+
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        // Assign player and tilemap immediately after scene load
+        FindPlayerAndTilemap();
+
+        // Snap camera to player start position
+        if (target != null && tilemap != null)
+        {
+            Vector3 camPos = transform.position;
+            camPos.x = Mathf.Clamp(target.position.x, minX, maxX);
+            camPos.y = fixedY; // or target.position.y if you want free vertical
+            transform.position = camPos;
+
+            // Update dead zones after snapping
+            leftBound = transform.position.x - deadZoneWidth;
+            rightBound = transform.position.x + deadZoneWidth;
+        }
+    }
+
+    private void FindPlayerAndTilemap()
+    {
+        GameObject playerObj = GameObject.FindWithTag("Player");
+        Tilemap map = Object.FindFirstObjectByType<Tilemap>();
+
+        if (playerObj != null && map != null)
+        {
+            float cameraY = transform.position.y; // keep camera height consistent
+            Setup(playerObj.transform, map, cameraY);
+
+        }
+    }
+
     public void Setup(Transform newTarget, Tilemap newTilemap, float lockY)
     {
         target = newTarget;
@@ -40,11 +83,10 @@ public class CameraFollow2D : MonoBehaviour
 
         tilemap.CompressBounds();
         Bounds b = tilemap.localBounds;
-
         minX = b.min.x + camHalfWidth;
         maxX = b.max.x - camHalfWidth;
 
-        leftBound  = transform.position.x - deadZoneWidth;
+        leftBound = transform.position.x - deadZoneWidth;
         rightBound = transform.position.x + deadZoneWidth;
     }
 
@@ -54,6 +96,7 @@ public class CameraFollow2D : MonoBehaviour
 
         Vector3 camPos = transform.position;
 
+        // Horizontal dead zone
         if (target.position.x > rightBound)
             camPos.x = target.position.x - deadZoneWidth;
         else if (target.position.x < leftBound)
@@ -62,13 +105,9 @@ public class CameraFollow2D : MonoBehaviour
         camPos.x = Mathf.Clamp(camPos.x, minX, maxX);
         camPos.y = fixedY;
 
-        transform.position = Vector3.Lerp(
-            transform.position,
-            camPos,
-            smoothSpeed * Time.deltaTime
-        );
+        transform.position = Vector3.Lerp(transform.position, camPos, smoothSpeed * Time.deltaTime);
 
-        leftBound  = transform.position.x - deadZoneWidth;
+        leftBound = transform.position.x - deadZoneWidth;
         rightBound = transform.position.x + deadZoneWidth;
     }
 }
