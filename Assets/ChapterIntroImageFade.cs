@@ -16,6 +16,7 @@ public class ChapterIntroImageFade : MonoBehaviour
         // Ensure image is visible BEFORE first frame
         fadeImageGroup.alpha = 1f;
         chapterTextGroup.alpha = 0f;
+         Canvas.ForceUpdateCanvases();
     }
 
     void Start()
@@ -26,7 +27,7 @@ public class ChapterIntroImageFade : MonoBehaviour
     IEnumerator FadeSequence()
     {
         // Optional: slight pause to ensure render
-        yield return null;
+        yield return new WaitForEndOfFrame();
 
         // Fade IN text
         yield return Fade(chapterTextGroup, 0f, 1f, textFadeDuration);
