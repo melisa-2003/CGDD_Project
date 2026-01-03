@@ -28,12 +28,22 @@ public class PlayerAttack : MonoBehaviour
 
     private void OnAttack(InputAction.CallbackContext context)
     {
-        if (isAttacking) return;
+    if (isAttacking) return;
 
         isAttacking = true;
         anim.SetBool("isAttacking", true);
-        Invoke(nameof(EndAttack), attackDuration);
-    }
+        RaycastHit2D hit = Physics2D.Raycast(
+        transform.position,
+        transform.right,
+        1f
+    );
+
+    if (hit.collider != null)
+
+
+    Invoke(nameof(EndAttack), attackDuration);
+}
+
 
     private void EndAttack()
     {
