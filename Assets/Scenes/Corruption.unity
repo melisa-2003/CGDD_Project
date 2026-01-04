@@ -2376,6 +2376,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 297741367632283670, guid: b7589c5808959034992913d2d7c42b2c, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 297741367632283670, guid: b7589c5808959034992913d2d7c42b2c, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 300
+      objectReference: {fileID: 0}
     - target: {fileID: 735445370627809934, guid: b7589c5808959034992913d2d7c42b2c, type: 3}
       propertyPath: m_Name
       value: GameplayUICanvas
@@ -2459,6 +2467,14 @@ PrefabInstance:
     - target: {fileID: 6413885207861949586, guid: b7589c5808959034992913d2d7c42b2c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7323919677913895069, guid: b7589c5808959034992913d2d7c42b2c, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 250
+      objectReference: {fileID: 0}
+    - target: {fileID: 7323919677913895069, guid: b7589c5808959034992913d2d7c42b2c, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 250
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
