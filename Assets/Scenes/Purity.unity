@@ -10415,12 +10415,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4128247889250439499, guid: 96bd2bc931793c64e82d6d7f13c82d18, type: 3}
+      propertyPath: visibleTime
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4128247889250439499, guid: 96bd2bc931793c64e82d6d7f13c82d18, type: 3}
       propertyPath: fadeInDuration
-      value: 1.5
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4128247889250439499, guid: 96bd2bc931793c64e82d6d7f13c82d18, type: 3}
+      propertyPath: fadeOutDuration
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4128247889250439499, guid: 96bd2bc931793c64e82d6d7f13c82d18, type: 3}
       propertyPath: textFadeDuration
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6489070933281318456, guid: 96bd2bc931793c64e82d6d7f13c82d18, type: 3}
       propertyPath: m_SortingOrder
