@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Attack
+  m_Name: HangTuah_Idle
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,15 +21,7 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: 21300000, guid: e4f6f016d458f1f4e9165a859f63c73b, type: 3}
-    - time: 0.11666667
-      value: {fileID: 21300000, guid: e63c316590d3ebd43aa28816ffe7bb29, type: 3}
-    - time: 0.2
-      value: {fileID: 21300000, guid: 8ffb4e4cfaf95ca45a860982b36aa21f, type: 3}
-    - time: 0.3
-      value: {fileID: 21300000, guid: 998746c918d3ed24495b15a1330430d0, type: 3}
-    - time: 0.41666666
-      value: {fileID: 21300000, guid: 5dda9ccc5cdf83c4787295a65a1aae20, type: 3}
+      value: {fileID: 21300000, guid: ce3f32fdaa7351d419a6fbf924bc26bf, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -52,22 +44,18 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: 21300000, guid: e4f6f016d458f1f4e9165a859f63c73b, type: 3}
-    - {fileID: 21300000, guid: e63c316590d3ebd43aa28816ffe7bb29, type: 3}
-    - {fileID: 21300000, guid: 8ffb4e4cfaf95ca45a860982b36aa21f, type: 3}
-    - {fileID: 21300000, guid: 998746c918d3ed24495b15a1330430d0, type: 3}
-    - {fileID: 21300000, guid: 5dda9ccc5cdf83c4787295a65a1aae20, type: 3}
+    - {fileID: 21300000, guid: ce3f32fdaa7351d419a6fbf924bc26bf, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.43333334
+    m_StopTime: 0.016666668
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
     m_HasAdditiveReferencePose: 0
-    m_LoopTime: 0
+    m_LoopTime: 1
     m_LoopBlend: 0
     m_LoopBlendOrientation: 0
     m_LoopBlendPositionY: 0

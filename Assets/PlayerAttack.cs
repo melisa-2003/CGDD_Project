@@ -27,19 +27,25 @@ public class PlayerAttack : MonoBehaviour
     }
 
     private void OnAttack(InputAction.CallbackContext context)
-    {
+{
     if (isAttacking) return;
 
-        isAttacking = true;
-        anim.SetBool("isAttacking", true);
-        RaycastHit2D hit = Physics2D.Raycast(
-        transform.position,
-        transform.right,
-        1f
-    );
+    isAttacking = true;
+    anim.SetBool("isAttacking", true);
 
-    if (hit.collider != null)
+    // Detect enemies in a small radius in front of the player
+    Vector2 attackPos = (Vector2)transform.position + (Vector2.right * 1f); // 1 unit in front
+    Collider2D[] hits = Physics2D.OverlapCircleAll(attackPos, 0.5f); // radius 0.5
 
+    foreach (var hit in hits)
+    {
+        CorruptedLegend legend = hit.GetComponent<CorruptedLegend>();
+        if (legend != null)
+        {
+	    Debug.Log("Hit legend!");
+            legend.TakeHit();
+        }
+    }
 
     Invoke(nameof(EndAttack), attackDuration);
 }
@@ -50,4 +56,11 @@ public class PlayerAttack : MonoBehaviour
         anim.SetBool("isAttacking", false);
         isAttacking = false;
     }
+
+	void OnDrawGizmosSelected()
+	{
+    	Gizmos.color = Color.red;
+    	Vector2 attackPos = (Vector2)transform.position + (Vector2.right * 1f);
+    	Gizmos.DrawWireSphere(attackPos, 0.5f);
+	}
 }

@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Legend_HangTuah_Override
+  m_Controller: {fileID: 9100000, guid: 2075e222555306941959e48fce18cfda, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: cb44ffb2394f39346a29f30105af9839, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 1a795fc76487a87488b1180cf9a61d04, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 52176aba87c479349add060f6d4c2c82, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 25a6e57d713a61e4bb2a44a288790a25, type: 2}
