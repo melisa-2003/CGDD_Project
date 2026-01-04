@@ -20,7 +20,6 @@ public class CameraFollow2D : MonoBehaviour
 
     void Awake()
     {
-        DontDestroyOnLoad(gameObject);       // persist across scenes
         SceneManager.sceneLoaded += OnSceneLoaded;
     }
 

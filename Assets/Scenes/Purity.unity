@@ -5944,6 +5944,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5235d3e68d2be354a936e40cfef998ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraFollow: {fileID: 1167393639}
   player: {fileID: 1932692296}
   groundTilemap: {fileID: 947888440}
   cameraLockY: 0

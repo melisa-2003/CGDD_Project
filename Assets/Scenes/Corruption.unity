@@ -1600,6 +1600,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13f16232d29239e43b69f63140ce63a2, type: 3}
+--- !u!4 &430659105 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3268379013303201192, guid: 13f16232d29239e43b69f63140ce63a2, type: 3}
+  m_PrefabInstance: {fileID: 430659104}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &473450154
 GameObject:
   m_ObjectHideFlags: 0
@@ -2936,7 +2941,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae97369e65e0f894a9c3a6fd09d0db68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  cameraFollow: {fileID: 685985926}
+  player: {fileID: 430659105}
   groundTilemap: {fileID: 356749177}
   cameraLockY: 0
 --- !u!4 &2129420925
