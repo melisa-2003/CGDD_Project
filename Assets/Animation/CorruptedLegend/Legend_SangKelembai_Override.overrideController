@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Legend_SangKelembai_Override
+  m_Controller: {fileID: 9100000, guid: 2075e222555306941959e48fce18cfda, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: cb44ffb2394f39346a29f30105af9839, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 56dcc4baec8549c47baf46864d5950e5, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 52176aba87c479349add060f6d4c2c82, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: aabe9ef3402510246b57a286acf815ce, type: 2}

@@ -60,7 +60,7 @@ public class PlayerAttack : MonoBehaviour
 	void OnDrawGizmosSelected()
 	{
     	Gizmos.color = Color.red;
-    	Vector2 attackPos = (Vector2)transform.position + (Vector2.right * 1f);
-    	Gizmos.DrawWireSphere(attackPos, 0.5f);
+    	Vector2 attackPos = (Vector2)transform.position + (Vector2.right * 1.3f);
+    	Gizmos.DrawWireSphere(attackPos, 0.6f);
 	}
 }

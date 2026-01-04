@@ -4,7 +4,7 @@ using UnityEngine;
 public class CorruptedLegend : MonoBehaviour
 {
     [Header("Legend Settings")]
-    public int hitsToDefeat = 5;
+    public int hitsToDefeat = 10;
 
     [Header("UI Data")]
     public string legendName;
@@ -18,6 +18,12 @@ public class CorruptedLegend : MonoBehaviour
     private bool defeated;
 
      private SpriteRenderer sr;
+
+     [Header("Dialogue & Reward")]
+    public CorruptedLegendDialogueLine[] defeatDialogueLines;
+    public Sprite rewardIcon;
+    public string rewardText = "Fragment Restored!";
+
 
     void Awake()
     {
@@ -64,9 +70,13 @@ public class CorruptedLegend : MonoBehaviour
     private IEnumerator FlashRed()
     {
         Color originalColor = sr.color;
-        sr.color = Color.red;       // flash red
-        yield return new WaitForSeconds(0.1f); // duration of flash
-        sr.color = originalColor;   // return to normal color
+
+        yield return new WaitForSeconds(0.1f); // 🔹 delay before flashing
+
+        sr.color = Color.red;
+        yield return new WaitForSeconds(0.1f); // flash duration
+
+        sr.color = originalColor;
     }
 
     void Defeat()
@@ -87,6 +97,17 @@ public class CorruptedLegend : MonoBehaviour
 
         // Disable collider
         GetComponent<Collider2D>().enabled = false;
+
+        if (CorruptedLegendDialogueManager.Instance != null)
+        {
+            CorruptedLegendDialogueManager.Instance.StartDialogue(
+                legendName,
+                portrait,
+                defeatDialogueLines,
+                rewardIcon,
+                rewardText
+            );
+        }
 
     }
 
