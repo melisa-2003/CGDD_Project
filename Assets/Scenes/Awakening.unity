@@ -3622,7 +3622,7 @@ MonoBehaviour:
   dialogueText: {fileID: 79516383}
   closeButton: {fileID: 803300305}
   lineDuration: 1.3
-  characterDelay: 0.6
+  characterDelay: 1
 --- !u!4 &1138014299
 Transform:
   m_ObjectHideFlags: 0
@@ -5131,10 +5131,10 @@ MonoBehaviour:
   - {fileID: 715637510}
   heartOfSelf: {fileID: 2067921077}
   fragmentCombinedText: {fileID: 76400814}
-  fadeDuration: 0.2
-  fragmentRiseDuration: 0.2
-  displayDuration: 0.2
-  fadeOutDuration: 0.2
+  fadeDuration: 1.5
+  fragmentRiseDuration: 1.8
+  displayDuration: 2
+  fadeOutDuration: 1.5
 --- !u!61 &2145486487
 BoxCollider2D:
   m_ObjectHideFlags: 0
