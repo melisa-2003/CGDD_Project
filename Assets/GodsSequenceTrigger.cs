@@ -11,17 +11,15 @@ public class GodsSequenceTrigger : MonoBehaviour
     public TMP_Text fragmentCombinedText;
 
     [Header("Timing")]
-    public float fadeDuration = 1.3f;
-    public float fragmentRiseDuration = 1.5f;
-    public float displayDuration = 1.8f;
-    public float fadeOutDuration = 1.3f;
+    public float fadeDuration = 1.5f;
+    public float fragmentRiseDuration = 2.5f;
+    public float displayDuration = 2f;
+    public float fadeOutDuration = 1.5f;
+
+    [Header("Curve Settings")]
+    public float curveHeight = 2f;
 
     private bool triggered = false;
-
-    void Awake()
-    {
-        Application.targetFrameRate = 60;
-    }
 
     void Start()
     {
@@ -42,36 +40,28 @@ public class GodsSequenceTrigger : MonoBehaviour
 
     IEnumerator PlaySequence()
     {
-        /* =========================
-         * 1️⃣ Fade in gods
-         * ========================= */
-        foreach (GameObject god in gods)
+        // Fade in gods
+        foreach (var god in gods)
         {
             var sr = god.GetComponent<SpriteRenderer>();
             sr.color = new Color(sr.color.r, sr.color.g, sr.color.b, 0f);
             god.SetActive(true);
         }
-
         yield return FadeGods(0f, 0.6f, fadeDuration);
 
-        /* =========================
-         * 2️⃣ Rise fragments
-         * ========================= */
+        // Fragments rise
         foreach (var frag in fragments) frag.SetActive(true);
 
         Vector3[] startPos = new Vector3[fragments.Length];
-        Vector3 targetPos = heartOfSelf.transform.position;
-
         for (int i = 0; i < fragments.Length; i++)
             startPos[i] = fragments[i].transform.position;
 
-        yield return RiseFragments(startPos, targetPos, fragmentRiseDuration);
+        yield return RiseFragmentsLocal(startPos, heartOfSelf.transform.position, fragmentRiseDuration, curveHeight);
 
         foreach (var frag in fragments) frag.SetActive(false);
 
-        /* =========================
-         * 3️⃣ Show heart + text
-         * ========================= */
+        // Heart + text appear with scale
+        heartOfSelf.transform.localScale = Vector3.zero;
         heartOfSelf.SetActive(true);
         var heartSR = heartOfSelf.GetComponent<SpriteRenderer>();
         Color baseColor = heartSR.color;
@@ -85,88 +75,105 @@ public class GodsSequenceTrigger : MonoBehaviour
         fragmentCombinedText.gameObject.SetActive(true);
         fragmentCombinedText.ForceMeshUpdate();
 
-        yield return FadeHeartAndText(heartSR, textGroup, baseColor, true, fadeDuration);
+        // Animate heart fade + scale
+        float elapsed = 0f;
+        while (elapsed < fadeDuration)
+        {
+            float t = Mathf.Clamp01(elapsed / fadeDuration);
+            heartSR.color = new Color(baseColor.r, baseColor.g, baseColor.b, t);
+            heartOfSelf.transform.localScale = Vector3.Lerp(Vector3.zero, Vector3.one, t);
+            textGroup.alpha = t;
+            elapsed += Time.unscaledDeltaTime;
+            yield return null;
+        }
 
-        /* =========================
-         * 4️⃣ Hold
-         * ========================= */
+        heartSR.color = baseColor;
+        heartOfSelf.transform.localScale = Vector3.one;
+        textGroup.alpha = 1f;
+
+        // Hold
         yield return Hold(displayDuration);
 
-        /* =========================
-         * 5️⃣ Fade out
-         * ========================= */
-        yield return FadeHeartAndText(heartSR, textGroup, baseColor, false, fadeOutDuration);
+        // Fade out
+        elapsed = 0f;
+        while (elapsed < fadeOutDuration)
+        {
+            float t = Mathf.Clamp01(elapsed / fadeOutDuration);
+            heartSR.color = new Color(baseColor.r, baseColor.g, baseColor.b, 1f - t);
+            textGroup.alpha = 1f - t;
+            elapsed += Time.unscaledDeltaTime;
+            yield return null;
+        }
 
         heartOfSelf.SetActive(false);
         fragmentCombinedText.gameObject.SetActive(false);
         textGroup.alpha = 1f;
     }
 
-    /* =========================
-     * HELPERS (Realtime based)
-     * ========================= */
+    // =========================
+    // Fragments rise toward heart using **local offsets**
+    // =========================
+    IEnumerator RiseFragmentsLocal(Vector3[] start, Vector3 target, float duration, float height)
+    {
+        float elapsed = 0f;
+
+        // Compute small offsets for curve
+        Vector3[] apex = new Vector3[fragments.Length];
+        for (int i = 0; i < fragments.Length; i++)
+        {
+            // Apex is midpoint + upward offset proportional to screen
+            apex[i] = Vector3.Lerp(start[i], target, 0.5f) + Vector3.up * height;
+        }
+
+        while (elapsed < duration)
+        {
+            float t = Mathf.Clamp01(elapsed / duration);
+
+            for (int i = 0; i < fragments.Length; i++)
+            {
+                // Quadratic Bezier
+                Vector3 pos = Mathf.Pow(1 - t, 2) * start[i] + 2 * (1 - t) * t * apex[i] + Mathf.Pow(t, 2) * target;
+                fragments[i].transform.position = pos;
+            }
+
+            elapsed += Time.unscaledDeltaTime;
+            yield return null;
+        }
+
+        // Ensure fragments reach target
+        for (int i = 0; i < fragments.Length; i++)
+            fragments[i].transform.position = target;
+    }
 
     IEnumerator FadeGods(float from, float to, float duration)
     {
-        float start = Time.realtimeSinceStartup;
-        float end = start + duration;
-
-        while (Time.realtimeSinceStartup < end)
+        float elapsed = 0f;
+        while (elapsed < duration)
         {
-            float t = Mathf.InverseLerp(start, end, Time.realtimeSinceStartup);
+            float t = Mathf.Clamp01(elapsed / duration);
             foreach (var god in gods)
             {
                 var sr = god.GetComponent<SpriteRenderer>();
                 sr.color = new Color(sr.color.r, sr.color.g, sr.color.b, Mathf.Lerp(from, to, t));
             }
-            yield return null;
-        }
-    }
-
-    IEnumerator RiseFragments(Vector3[] start, Vector3 target, float duration)
-    {
-        float startTime = Time.realtimeSinceStartup;
-        float endTime = startTime + duration;
-
-        while (Time.realtimeSinceStartup < endTime)
-        {
-            float t = Mathf.InverseLerp(startTime, endTime, Time.realtimeSinceStartup);
-            for (int i = 0; i < fragments.Length; i++)
-                fragments[i].transform.position = Vector3.Lerp(start[i], target, t);
-
+            elapsed += Time.unscaledDeltaTime;
             yield return null;
         }
 
-        for (int i = 0; i < fragments.Length; i++)
-            fragments[i].transform.position = target;
-    }
-
-    IEnumerator FadeHeartAndText(
-        SpriteRenderer heart,
-        CanvasGroup text,
-        Color baseColor,
-        bool fadeIn,
-        float duration)
-    {
-        float start = Time.realtimeSinceStartup;
-        float end = start + duration;
-
-        while (Time.realtimeSinceStartup < end)
+        foreach (var god in gods)
         {
-            float t = Mathf.InverseLerp(start, end, Time.realtimeSinceStartup);
-            float alpha = fadeIn ? t : 1f - t;
-
-            heart.color = new Color(baseColor.r, baseColor.g, baseColor.b, alpha);
-            text.alpha = alpha;
-
-            yield return null;
+            var sr = god.GetComponent<SpriteRenderer>();
+            sr.color = new Color(sr.color.r, sr.color.g, sr.color.b, to);
         }
     }
 
     IEnumerator Hold(float seconds)
     {
-        float end = Time.realtimeSinceStartup + seconds;
-        while (Time.realtimeSinceStartup < end)
+        float elapsed = 0f;
+        while (elapsed < seconds)
+        {
+            elapsed += Time.unscaledDeltaTime;
             yield return null;
+        }
     }
 }
