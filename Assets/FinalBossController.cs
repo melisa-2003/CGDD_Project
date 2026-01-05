@@ -1,4 +1,4 @@
-using System.Collections;
+using System.Collections; 
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
@@ -18,9 +18,10 @@ public class FinalBossController : MonoBehaviour
     public MirrorDialogueData childDialogue;
 
     [Header("Dialogue Speed")]
-    public float normalDialogueSpeed = 0.2f;
-    public float childDialogueSpeed = 0.2f;
-
+    [Tooltip("Time per character for shadow dialogue")]
+    public float normalDialogueSpeed = 0.03f; // faster typing
+    [Tooltip("Time per character for child dialogue")]
+    public float childDialogueSpeed = 0.03f;  // faster typing
 
     [Header("UI")]
     public Button hugButton;
@@ -47,7 +48,8 @@ public class FinalBossController : MonoBehaviour
         if (battleStarted) return;
         battleStarted = true;
 
-        dialogueManager.characterDelay = normalDialogueSpeed;
+        // Set typing speed for shadow dialogue
+        dialogueManager.characterDelay = Mathf.Max(normalDialogueSpeed, 0.01f);
         dialogueManager.StartDialogue(shadowDialogue, StartAttackPhase);
     }
 
@@ -90,7 +92,8 @@ public class FinalBossController : MonoBehaviour
         bossSprite.enabled = false;
         childObject.SetActive(true);
 
-        dialogueManager.characterDelay = childDialogueSpeed;
+        // Set typing speed for child dialogue
+        dialogueManager.characterDelay = Mathf.Max(childDialogueSpeed, 0.01f);
         dialogueManager.StartDialogue(childDialogue, EnableHug);
     }
 
@@ -106,15 +109,15 @@ public class FinalBossController : MonoBehaviour
     }
 
     IEnumerator HugSequence()
-{
-    // Child vanishes
-    childObject.SetActive(false);
+    {
+        // Child vanishes
+        childObject.SetActive(false);
 
-    finalMessageText.gameObject.SetActive(true);
+        finalMessageText.gameObject.SetActive(true);
 
-    Color color = finalMessageText.color;
-    color.a = 0f;
-    finalMessageText.color = color;
+        Color color = finalMessageText.color;
+        color.a = 0f;
+        finalMessageText.color = color;
 
         // 🔹 Fade IN
         float fadeInTime = 1.5f;
@@ -147,5 +150,4 @@ public class FinalBossController : MonoBehaviour
 
         finalMessageText.gameObject.SetActive(false);
     }
-
 }

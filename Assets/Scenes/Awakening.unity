@@ -3281,8 +3281,8 @@ MonoBehaviour:
   dialogueManager: {fileID: 1138014298}
   shadowDialogue: {fileID: 11400000, guid: c918e5e436d111e46ba0f4aabe45d38c, type: 2}
   childDialogue: {fileID: 11400000, guid: b57fcd71960bd6443aab508a557f5626, type: 2}
-  normalDialogueSpeed: 0.2
-  childDialogueSpeed: 0.2
+  normalDialogueSpeed: 0.03
+  childDialogueSpeed: 0.03
   hugButton: {fileID: 567959084}
   finalMessageText: {fileID: 1512101547}
   hitsToDefeat: 20
@@ -4100,7 +4100,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 182, y: 37}
+  m_AnchoredPosition: {x: 132, y: 37}
   m_SizeDelta: {x: 300, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1512101547
@@ -4132,7 +4132,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
+    rgba: 16777216
   m_fontColor: {r: 0, g: 0, b: 0, a: 0.003921569}
   m_enableVertexGradient: 0
   m_colorMode: 3
