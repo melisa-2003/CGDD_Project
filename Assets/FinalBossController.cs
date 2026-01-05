@@ -18,8 +18,8 @@ public class FinalBossController : MonoBehaviour
     public MirrorDialogueData childDialogue;
 
     [Header("Dialogue Speed")]
-    public float normalDialogueSpeed = 0.04f;
-    public float childDialogueSpeed = 0.1f;
+    public float normalDialogueSpeed = 0.2f;
+    public float childDialogueSpeed = 0.2f;
 
 
     [Header("UI")]

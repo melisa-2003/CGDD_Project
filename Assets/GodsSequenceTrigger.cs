@@ -5,120 +5,168 @@ using System.Collections;
 public class GodsSequenceTrigger : MonoBehaviour
 {
     [Header("Scene Objects")]
-    public GameObject[] gods;           
-    public GameObject[] fragments;      
-    public GameObject heartOfSelf;      
+    public GameObject[] gods;
+    public GameObject[] fragments;
+    public GameObject heartOfSelf;
     public TMP_Text fragmentCombinedText;
 
     [Header("Timing")]
-    public float fadeDuration = 1f;     
+    public float fadeDuration = 1.3f;
     public float fragmentRiseDuration = 1.5f;
-    public float displayDuration = 1.5f; // how long Heart + text stay visible
-    public float fadeOutDuration = 1f;   // fade out Heart + text
+    public float displayDuration = 1.8f;
+    public float fadeOutDuration = 1.3f;
 
     private bool triggered = false;
+
+    void Awake()
+    {
+        Application.targetFrameRate = 60;
+    }
+
+    void Start()
+    {
+        foreach (var god in gods) god.SetActive(false);
+        foreach (var frag in fragments) frag.SetActive(false);
+        heartOfSelf.SetActive(false);
+        fragmentCombinedText.gameObject.SetActive(false);
+    }
 
     void OnTriggerEnter2D(Collider2D other)
     {
         if (triggered) return;
-        if (other.CompareTag("Player"))
-        {
-            triggered = true;
-            StartCoroutine(PlaySequence());
-        }
+        if (!other.CompareTag("Player")) return;
+
+        triggered = true;
+        StartCoroutine(PlaySequence());
     }
 
     IEnumerator PlaySequence()
     {
-        // 1️⃣ Fade in gods
+        /* =========================
+         * 1️⃣ Fade in gods
+         * ========================= */
         foreach (GameObject god in gods)
         {
-            SpriteRenderer sr = god.GetComponent<SpriteRenderer>();
-            Color c = sr.color;
-            c.a = 0f;
-            sr.color = c;
+            var sr = god.GetComponent<SpriteRenderer>();
+            sr.color = new Color(sr.color.r, sr.color.g, sr.color.b, 0f);
             god.SetActive(true);
         }
 
-        float elapsed = 0f;
-        while (elapsed < fadeDuration)
-        {
-            foreach (GameObject god in gods)
-            {
-                SpriteRenderer sr = god.GetComponent<SpriteRenderer>();
-                Color c = sr.color;
-                c.a = Mathf.Lerp(0f, 0.6f, elapsed / fadeDuration); // semi-transparent
-                sr.color = c;
-            }
-            elapsed += Time.deltaTime;
-            yield return null;
-        }
+        yield return FadeGods(0f, 0.6f, fadeDuration);
 
-        // 2️⃣ Activate and rise fragments
-        foreach (GameObject frag in fragments) frag.SetActive(true);
+        /* =========================
+         * 2️⃣ Rise fragments
+         * ========================= */
+        foreach (var frag in fragments) frag.SetActive(true);
 
-        Vector3[] startPositions = new Vector3[fragments.Length];
+        Vector3[] startPos = new Vector3[fragments.Length];
         Vector3 targetPos = heartOfSelf.transform.position;
 
         for (int i = 0; i < fragments.Length; i++)
-            startPositions[i] = fragments[i].transform.position;
+            startPos[i] = fragments[i].transform.position;
 
-        elapsed = 0f;
-        while (elapsed < fragmentRiseDuration)
-        {
-            for (int i = 0; i < fragments.Length; i++)
-            {
-                fragments[i].transform.position = Vector3.Lerp(
-                    startPositions[i],
-                    targetPos,
-                    elapsed / fragmentRiseDuration
-                );
-            }
-            elapsed += Time.deltaTime;
-            yield return null;
-        }
+        yield return RiseFragments(startPos, targetPos, fragmentRiseDuration);
 
-        // 3️⃣ Snap fragments into Heart
-        for (int i = 0; i < fragments.Length; i++)
-            fragments[i].transform.position = targetPos;
+        foreach (var frag in fragments) frag.SetActive(false);
 
-        foreach (GameObject frag in fragments)
-            frag.SetActive(false);
-
-        // 4️⃣ Show Heart + Fragment Combined Text together
+        /* =========================
+         * 3️⃣ Show heart + text
+         * ========================= */
         heartOfSelf.SetActive(true);
-        if (fragmentCombinedText != null)
+        var heartSR = heartOfSelf.GetComponent<SpriteRenderer>();
+        Color baseColor = heartSR.color;
+        heartSR.color = new Color(baseColor.r, baseColor.g, baseColor.b, 0f);
+
+        CanvasGroup textGroup = fragmentCombinedText.GetComponent<CanvasGroup>();
+        if (!textGroup)
+            textGroup = fragmentCombinedText.gameObject.AddComponent<CanvasGroup>();
+
+        textGroup.alpha = 0f;
+        fragmentCombinedText.gameObject.SetActive(true);
+        fragmentCombinedText.ForceMeshUpdate();
+
+        yield return FadeHeartAndText(heartSR, textGroup, baseColor, true, fadeDuration);
+
+        /* =========================
+         * 4️⃣ Hold
+         * ========================= */
+        yield return Hold(displayDuration);
+
+        /* =========================
+         * 5️⃣ Fade out
+         * ========================= */
+        yield return FadeHeartAndText(heartSR, textGroup, baseColor, false, fadeOutDuration);
+
+        heartOfSelf.SetActive(false);
+        fragmentCombinedText.gameObject.SetActive(false);
+        textGroup.alpha = 1f;
+    }
+
+    /* =========================
+     * HELPERS (Realtime based)
+     * ========================= */
+
+    IEnumerator FadeGods(float from, float to, float duration)
+    {
+        float start = Time.realtimeSinceStartup;
+        float end = start + duration;
+
+        while (Time.realtimeSinceStartup < end)
         {
-            fragmentCombinedText.gameObject.SetActive(true);
+            float t = Mathf.InverseLerp(start, end, Time.realtimeSinceStartup);
+            foreach (var god in gods)
+            {
+                var sr = god.GetComponent<SpriteRenderer>();
+                sr.color = new Color(sr.color.r, sr.color.g, sr.color.b, Mathf.Lerp(from, to, t));
+            }
+            yield return null;
         }
+    }
 
-        // 5️⃣ Hold for displayDuration
-        yield return new WaitForSeconds(displayDuration);
+    IEnumerator RiseFragments(Vector3[] start, Vector3 target, float duration)
+    {
+        float startTime = Time.realtimeSinceStartup;
+        float endTime = startTime + duration;
 
-        // 6️⃣ Fade out Heart + text
-        float fadeElapsed = 0f;
-        SpriteRenderer heartSR = heartOfSelf.GetComponent<SpriteRenderer>();
-        Color heartColor = heartSR.color;
-        Color textColor = fragmentCombinedText.color;
-
-        while (fadeElapsed < fadeOutDuration)
+        while (Time.realtimeSinceStartup < endTime)
         {
-            float t = fadeElapsed / fadeOutDuration;
-            if (heartSR != null)
-                heartSR.color = new Color(heartColor.r, heartColor.g, heartColor.b, Mathf.Lerp(1f, 0f, t));
-            if (fragmentCombinedText != null)
-                fragmentCombinedText.color = new Color(textColor.r, textColor.g, textColor.b, Mathf.Lerp(1f, 0f, t));
+            float t = Mathf.InverseLerp(startTime, endTime, Time.realtimeSinceStartup);
+            for (int i = 0; i < fragments.Length; i++)
+                fragments[i].transform.position = Vector3.Lerp(start[i], target, t);
 
-            fadeElapsed += Time.deltaTime;
             yield return null;
         }
 
-        // 7️⃣ Make sure fully invisible
-        heartOfSelf.SetActive(false);
-        if (fragmentCombinedText != null)
+        for (int i = 0; i < fragments.Length; i++)
+            fragments[i].transform.position = target;
+    }
+
+    IEnumerator FadeHeartAndText(
+        SpriteRenderer heart,
+        CanvasGroup text,
+        Color baseColor,
+        bool fadeIn,
+        float duration)
+    {
+        float start = Time.realtimeSinceStartup;
+        float end = start + duration;
+
+        while (Time.realtimeSinceStartup < end)
         {
-            fragmentCombinedText.gameObject.SetActive(false);
-            fragmentCombinedText.color = textColor; // reset alpha for next time
+            float t = Mathf.InverseLerp(start, end, Time.realtimeSinceStartup);
+            float alpha = fadeIn ? t : 1f - t;
+
+            heart.color = new Color(baseColor.r, baseColor.g, baseColor.b, alpha);
+            text.alpha = alpha;
+
+            yield return null;
         }
+    }
+
+    IEnumerator Hold(float seconds)
+    {
+        float end = Time.realtimeSinceStartup + seconds;
+        while (Time.realtimeSinceStartup < end)
+            yield return null;
     }
 }
