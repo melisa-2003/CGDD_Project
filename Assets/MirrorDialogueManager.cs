@@ -13,8 +13,8 @@ public class MirrorDialogueManager : MonoBehaviour
     public Button closeButton;
 
     [Header("Timing")]
-    public float lineDuration = 2.5f;
-    public float characterDelay; // (unused for now, kept for future typing effect)
+    public float lineDuration = 1.5f;   // Time to wait after typing each line
+    public float characterDelay = 0.03f; // Typing speed per character
 
     private Coroutine dialogueCoroutine;
     private Action onFinishCallback;
@@ -27,9 +27,12 @@ public class MirrorDialogueManager : MonoBehaviour
             closeButton.onClick.AddListener(CloseDialogue);
     }
 
+    /// <summary>
+    /// Starts a dialogue sequence
+    /// </summary>
     public void StartDialogue(MirrorDialogueData data, Action onFinish)
     {
-        // Safety: stop previous dialogue if any
+        // Stop previous dialogue if any
         if (dialogueCoroutine != null)
             StopCoroutine(dialogueCoroutine);
 
@@ -40,11 +43,15 @@ public class MirrorDialogueManager : MonoBehaviour
         dialogueCoroutine = StartCoroutine(PlayDialogue(data));
     }
 
+    /// <summary>
+    /// Plays dialogue lines with typing effect
+    /// </summary>
     private IEnumerator PlayDialogue(MirrorDialogueData data)
     {
         foreach (string line in data.lines)
         {
-            dialogueText.text = line;
+            yield return StartCoroutine(TypeLine(line));
+            // Wait after line is fully typed
             yield return new WaitForSeconds(lineDuration);
         }
 
@@ -52,7 +59,21 @@ public class MirrorDialogueManager : MonoBehaviour
     }
 
     /// <summary>
-    /// Called by Close Button
+    /// Types out a single line character by character
+    /// </summary>
+    private IEnumerator TypeLine(string line)
+    {
+        dialogueText.text = "";
+
+        foreach (char c in line)
+        {
+            dialogueText.text += c;
+            yield return new WaitForSeconds(characterDelay);
+        }
+    }
+
+    /// <summary>
+    /// Closes the dialogue panel
     /// </summary>
     public void CloseDialogue()
     {
