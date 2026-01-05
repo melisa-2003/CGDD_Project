@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: 71c5ad673ecb3384cb4c9443d65438f0
+guid: 3cb3bc267bb1f024881587ca9be5e44b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 9144256732657652984
-    second: FB_Attack (5)_0
-  - first:
-      213: -5542498204232070665
-    second: FB_Attack (5)_1
-  - first:
-      213: -1125717456014069241
-    second: FB_Attack (5)_2
+      213: -5555519153781800944
+    second: mirror1-Photoroom_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -57,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 200
+  spritePixelsToUnits: 300
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -119,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FB_Attack (5)_0
+      name: mirror1-Photoroom_0
       rect:
         serializedVersion: 2
-        x: 357
-        y: 452
-        width: 943
-        height: 762
+        x: 0
+        y: 0
+        width: 864
+        height: 1184
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,52 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8f4980dcc0de6ee70800000000000000
-      internalID: 9144256732657652984
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FB_Attack (5)_1
-      rect:
-        serializedVersion: 2
-        x: 592
-        y: 326
-        width: 328
-        height: 232
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7f9c188af371513b0800000000000000
-      internalID: -5542498204232070665
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FB_Attack (5)_2
-      rect:
-        serializedVersion: 2
-        x: 982
-        y: 303
-        width: 172
-        height: 199
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 70233d420f5a060f0800000000000000
-      internalID: -1125717456014069241
+      spriteID: 01005f793c4d6e2b0800000000000000
+      internalID: -5555519153781800944
       vertices: []
       indices: 
       edges: []
@@ -198,9 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      FB_Attack (5)_0: 9144256732657652984
-      FB_Attack (5)_1: -5542498204232070665
-      FB_Attack (5)_2: -1125717456014069241
+      mirror1-Photoroom_0: -5555519153781800944
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

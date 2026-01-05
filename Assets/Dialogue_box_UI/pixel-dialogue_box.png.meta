@@ -303,28 +303,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel-dialogue_box_5
-      rect:
-        serializedVersion: 2
-        x: 960
-        y: 356
-        width: 16
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9bf6e7747e33ec210800000000000000
-      internalID: 1355077606315028409
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: pixel-dialogue_box_6
       rect:
         serializedVersion: 2
@@ -395,9 +373,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 227
+        y: 232
         width: 247
-        height: 89
+        height: 84
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -505,7 +483,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 538
-        y: 137
+        y: 139
         width: 233
         height: 110
       alignment: 0
@@ -633,50 +611,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel-dialogue_box_28
-      rect:
-        serializedVersion: 2
-        x: 458
-        y: 25
-        width: 255
-        height: 143
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1edd3a19b094d0670800000000000000
-      internalID: 8506535585209638369
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pixel-dialogue_box_29
-      rect:
-        serializedVersion: 2
-        x: 729
-        y: 27
-        width: 225
-        height: 124
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5965968231a6fc660800000000000000
-      internalID: 7408256542562670229
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: pixel-dialogue_box_32
       rect:
         serializedVersion: 2
@@ -724,10 +658,10 @@ TextureImporter:
       name: pixel-dialogue_box_34
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 118
-        height: 81
+        x: 26
+        y: 25
+        width: 92
+        height: 56
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

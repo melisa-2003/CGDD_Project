@@ -38,14 +38,24 @@ public class PlayerAttack : MonoBehaviour
     Collider2D[] hits = Physics2D.OverlapCircleAll(attackPos, 0.5f); // radius 0.5
 
     foreach (var hit in hits)
+{
+    // Check CorruptedLegend first
+    CorruptedLegend legend = hit.GetComponent<CorruptedLegend>();
+    if (legend != null)
     {
-        CorruptedLegend legend = hit.GetComponent<CorruptedLegend>();
-        if (legend != null)
-        {
-	    Debug.Log("Hit legend!");
-            legend.TakeHit();
-        }
+        Debug.Log("Hit legend!");
+        legend.TakeHit();
     }
+
+    // Check FinalBossController
+    FinalBossController boss = hit.GetComponent<FinalBossController>();
+    if (boss != null)
+    {
+        Debug.Log("Hit final boss!");
+        boss.TakeHit();
+    }
+}
+
 
     Invoke(nameof(EndAttack), attackDuration);
 }
